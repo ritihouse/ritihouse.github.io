@@ -18,6 +18,7 @@ p, div {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: "Merriweather", serif;
+	font-size: 28px;
 }
 body {
 	background-color: #f2efea;
@@ -30,6 +31,12 @@ body {
 	width: 25%;
 	border-top: 1px solid #212121;
 }
+
+.divider-white {
+	width: 25%;
+	border-top: 1px solid #fff;
+}
+
 .space {
 	margin: 55px 0px;
 }
@@ -41,10 +48,9 @@ body {
 
 }
 
-
-	.credentials {
-			margin-top: 100px;
-	}
+.credentials {
+		margin-top: 3%;
+}
 
 @media (max-width: 767px) {
 	.space {
@@ -57,11 +63,24 @@ body {
 		line-height: 160%;
 	}
 
+	h1, .h1 {
+		font-family: "Open Sans", sans-serif;
+		font-size: 18px;
+	}
+
+	h4, .h4 {
+		font-size: 16px;
+	}
+
 	.credentials > p,
 	.credentials > h6 {
 		font-family: "Cabin", sans-serif;
 		font-size: 10px;
 		line-height: 200%;
+	}
+
+	.credentials {
+			margin-top: 10%;
 	}
 }
 
@@ -142,7 +161,7 @@ footer > .container-fluid {
 }
 
 .site-nav-pager {
-	margin: 15px 0px;
+	margin: 25px 0;
 }
 
 .nav-footer {
@@ -151,24 +170,36 @@ footer > .container-fluid {
 	padding: 5px 15px;
 }
 
+.pagination {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+
+	max-width: 95%;
+
+}
 /* ===========================================================================
 Dividers
 =========================================================================== */
 
 .left-divider {
 	border-left: 1px solid #fff;
+	margin-left: 5px;
 }
 
 .right-divider {
 	border-right: 1px solid #fff;
+	margin-right: 5px;
 }
 
 .bottom-divider {
 	border-bottom: 1px solid #fff;
+	margin-bottom: 5px;
 }
 
 .top-divider {
 	border-top: 1px solid #fff;
+	margin-top: 5px;
 }
 
 /* ==========================================================================
