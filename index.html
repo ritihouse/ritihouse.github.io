@@ -13,12 +13,12 @@
 	<meta name="googlebot-image" content="noimageindex" />
 	<!--Link for the icon on tabs-->
 	<link rel="icon" href="img/favicon.ico" />
-	<link rel="image_src" href="img/logo2.jpg" />
 	<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700|Cabin:400,400italic,600,600italic&subset=latin-ext' rel='stylesheet' type='text/css' />
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	
 	<title>International House</title>
 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link href="css/animate.css" rel="stylesheet" />
 	<link href="css/bootstrap.min.css" rel="stylesheet" />
 	<link href="css/styles.css" rel="stylesheet" />
@@ -34,18 +34,40 @@
 	</div>
 	-->
 <div class="website">
-  
+
   <!-- Navbar -->
 	<nav class="navbar navbar-ihouse navbar-fixed-top">
-		<div class="container">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="#">
-					<img class="img-square logo" alt="IH&nbsp;" src="img/brand.ico" />
-					<div class="logo-text">
-						International House
-					</div>
-				</a>
-			</div>
+		<div class="container-fluid">
+        <div class="container" id="page-top">
+            <!-- Mobile First -->
+            <div class="visible-xs hidden-sm hidden-md hidden-lg">
+                <div class="navbar-mobile-header">
+                    <button id="bars" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-mobile-collapse">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="fa fa-2x fa-inverse fa-bars"></span> <!-- Bars button -->
+                    </button>
+                    <a id="brand" class="navbar-brand" href="#page-top">
+                        <img id="brand-img" class="center-block img-square" src="img/brand.ico" />
+                    </a>
+                </div>
+                <!-- Mobile Tabs -->
+                <div class="navbar-collapse collapse" id="navbar-mobile-collapse">
+                    <ul class="nav navbar-nav navbar-ihouse">
+                       <li class="navbar-link">
+                          <a class="text-center" href="#">
+                            <i class="fa fa-fw fa-sticky-note"></i> About
+                            <span class="sr-only">(current)</span> <!-- For Screen Readers (accessibility for blind persons) -->
+                          </a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Desktop Header -->
+            <div class="hidden-xs visible-sm visible-md visible-lg">
+
+            </div>
+        </div>
 		</div>
 	</nav>
 

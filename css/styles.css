@@ -188,4 +188,46 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 	.logo-text {
 		display:none;
 	}
+
+	.navbar-mobile-header {
+		height: 50px;
+		margin-top: 5px;
+		margin-bottom: 15px;
+	}
+
+	#navbar-mobile-collapse {
+	}
+
+	#brand {
+		  position: relative;
+		  float: left;
+		  margin-left: 15px;
+
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-top: 9px;
+			padding-bottom: 9px;
+
+		  margin-top: 5.5px;
+		  margin-bottom: 5.5px;
+		  background-color: transparent;
+		  background-image: none;
+		  border: 1px solid transparent;
+		  border-radius: 0;
+	}
+
+	#brand:focus {
+		  outline: 0;
+	}
+
+	#brand #brand-img {
+		  display: block;
+		  width: 35px;
+		  height: 35px;
+		  border-radius: 1px;
+	}
+
+	#brand-img {
+			margin-top: -5.5px;
+	}
 }
