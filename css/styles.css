@@ -214,7 +214,7 @@ Navbar
 .navbar-ihouse {
   background-color: #4b92db;
   border-color: #3476b4;
-	padding-right: 0px;
+	padding-right: 25px;
 }
 
 .navbar-ihouse .navbar-brand {
@@ -487,32 +487,32 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 
 		clear: none;
 		font-family: "Cabin", serif;
-		font-size: 20px;
+		font-size: 18px;
 		font-style: bold;
 	}
 }
 
-@media (max-width: 379px) {
+@media (max-width: 385px) {
 	 .logo-text {
-		 margin-top: -57.5px;
+		 margin-top: -56.5px;
 	 }
 }
 
-@media (max-width: 319px) {
+@media (max-width: 334px) {
 	 .logo-text {
 		 margin-top: -50px;
 		 font-size: 14px;
 	 }
 }
 
-@media (max-width: 286px) {
+@media (max-width: 311px) {
 	 .logo-text {
 		 margin-top: -49.5px;
 		 font-size: 12px;
 	 }
 }
 
-@media (max-width: 275px) {
+@media (max-width: 299px) {
 		 .logo-text {
 			 display: none;
 		 }
