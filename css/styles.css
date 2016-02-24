@@ -214,8 +214,8 @@ Navbar
 .navbar-ihouse {
   background-color: #4b92db;
   border-color: #3476b4;
-	padding-right: 12px;
-	margin-right: -1px;
+	padding-right: 0px;
+	margin-right: 0px;
 }
 
 .navbar-ihouse .navbar-brand {
@@ -448,7 +448,7 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 		display: block;
 
 		margin-top: -52.5px;
-		margin-bottom: 24.5px;
+		margin-bottom: 0px;
 		margin-left: 0px;
 		margin-right: 5px;
 
@@ -488,8 +488,16 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 
 		clear: none;
 		font-family: "Cabin", serif;
-		font-size: 18px;
+		font-size: 20px;
 		font-style: bold;
+	}
+
+	p, div, a {
+		font-size: 20px;
+	}
+
+	#bars span{
+		font-size: 28px;
 	}
 }
 
@@ -499,27 +507,28 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 	 }
 }
 
-@media (max-width: 371px) {
+@media (max-width: 377px) {
 	 .logo-text {
-		 margin-top: -53.5px;
+		 margin-top: -46.5px;
+		 font-size:16px;
 	 }
 }
 
-@media (max-width: 334px) {
+@media (max-width: 345px) {
 	 .logo-text {
-		 margin-top: -50px;
+		 margin-top: -43.5px;
 		 font-size: 14px;
 	 }
 }
 
-@media (max-width: 311px) {
+@media (max-width: 328px) {
 	 .logo-text {
-		 margin-top: -49.5px;
+		 margin-top: -43.5px;
 		 font-size: 12px;
 	 }
 }
 
-@media (max-width: 299px) {
+@media (max-width: 310px) {
 		 .logo-text {
 			 display: none;
 		 }
