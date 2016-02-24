@@ -16,7 +16,7 @@ html {
 }
 p, div {
 	font-family: "Open Sans", sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 150%;
 }
 h1, h2, h3, h4, h5, h6,
@@ -465,7 +465,7 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 		font-size: 28px;
 		font-style: normal;
 	}
-
+	
 	.navbar-mobile-header {
 		height: 50px;
 		margin-top: 5px;
@@ -501,7 +501,7 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 	}
 
 	p, div {
-		font-size: 22px;
+		font-size: 18px;
 	}
 
 	#bars span{
@@ -521,7 +521,7 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 		 font-size:16px;
 	 }
 
-	 	p, div, a {
+	 	p, div {
 	 		font-family: "Open Sans", sans-serif;
 	 		font-size: 14px;
 	 		line-height: 160%;
