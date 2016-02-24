@@ -10,6 +10,11 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: "Merriweather", serif;
 }
+body {
+	background-color: #f2efea;
+}
+
+
 
 
 /* ==========================================================================
@@ -21,16 +26,29 @@ Hero
 .hero-overlay { color:#ffffff; }
 
 /* ==========================================================================
+Footer
+========================================================================== */
+
+footer {
+	height:auto;
+	background-color: #030910;
+	color: #ffffff;
+}
+
+/* ==========================================================================
 Navbar
 ========================================================================== */
 
 .navbar-ihouse {
-  background-color: #4f8fcc;
+  background-color: #4b92db;
   border-color: #3476b4;
 }
+
 .navbar-ihouse .navbar-brand {
   color: #ffffff;
+  
 }
+
 .navbar-i .navbar-brand:hover,
 .navbar-ihouse .navbar-brand:focus {
   color: #ffffff;
@@ -125,4 +143,19 @@ fieldset[disabled] .navbar-ihouse .btn-link:hover,
 .navbar-ihouse .btn-link[disabled]:focus,
 fieldset[disabled] .navbar-ihouse .btn-link:focus {
   color: #444444;
+}
+
+.logo {
+	float: left;
+}
+
+.logo-text {
+	display: inline-block;
+	clear: left;
+}
+
+@media (max-width: 767px) {
+	.logo-text {
+		display:none;
+	}
 }
