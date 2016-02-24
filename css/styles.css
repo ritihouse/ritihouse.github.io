@@ -200,6 +200,8 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 
 	margin-top: 15px;
 	margin-bottom: 0px;
+	margin-left: 5px;
+	margin-right: 5px;
 
 	clear: left;
 	font-family: "Cabin", serif;
@@ -227,7 +229,7 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 }
 
 #brand:focus {
-	  outline: 0;
+	  /* outline: 0; */
 }
 
 #brand #brand-img {
@@ -239,6 +241,10 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 
 #brand-img {
 		margin-top: -5.5px;
+}
+
+#brand:hover, #bars:hover, #bars:focus {
+		background-color: #3476b4;
 }
 
 .navbar-desktop-header {
@@ -260,26 +266,47 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 		border: 1px solid transparent;
 		border-radius: 0;
 
-		font-size: 14px;
+		font-size: 18px;
 }
 
-@media (max-width: 991px) {
-	.navbar-desktop-links {
-			position: relative;
-			float: right;
-			margin-right: 15px;
-			padding: 4px 10px;
-			margin-top: 2.5px;
-			margin-bottom: 5.5px;
-			background-color: transparent;
-			background-image: none;
-			border: 1px solid transparent;
-			border-radius: 0;
+@media (max-width: 1200px) {
+		.navbar-desktop-links {
+				position: relative;
+				float: right;
+				margin-right: 0px;
+				padding: 0px;
+				margin-top: 2.5px;
+				margin-bottom: 5px;
+				background-color: transparent;
+				background-image: none;
+				border: 1px solid transparent;
+				border-radius: 0;
 
-			font-size: 20px;
-	}
+				font-size: 17px;
+		}
 
-	.hidden-996px {
+		.navbar-nav > li > a.navbar-link-padding {
+			  padding: 16px 7px;
+		}
+}
+
+@media (max-width: 991px){
+		.navbar-desktop-links {
+				position: relative;
+				float: right;
+				margin-right: 15px;
+				padding: 4px 10px;
+				margin-top: -2px;
+				margin-bottom: 5.5px;
+				background-color: transparent;
+				background-image: none;
+				border: 1px solid transparent;
+				border-radius: 0;
+
+				font-size: 20px;
+		}
+
+	.hidden-custom {
 		 display: none;
 	}
 }
@@ -292,6 +319,8 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 
 		margin-top: -52.5px;
 		margin-bottom: 24.5px;
+		margin-left: 0px;
+		margin-right: 5px;
 
 		clear: none;
 		font-family: "Cabin", serif;
@@ -310,7 +339,7 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 	}
 }
 
-@media (max-width: 442px) {
+@media (max-width: 470px) {
 	.logo-text {
 		display: none;
 	}
