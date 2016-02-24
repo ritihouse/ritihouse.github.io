@@ -33,6 +33,16 @@
 		</div>
 	</div>
 	-->
+
+    <!--  FACEBOOK JQUERY CALL <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script> -->
+
 <div class="website">
 
   <!-- Navbar -->
@@ -186,39 +196,73 @@
   <!-- Footer -->
 	<footer class="footer">
 
-    <!-- Social Media Footer -->
 		<div class="container-fluid">
-			<div class="col-xs-9 col-xs-offset-3">
-				<div class="row social-footer">
-					<a href="https://www.facebook.com/ritinternationalhouse/timeline" target="_blank" class="social-btn"><i class="fa fa-facebook"></i></a>
-					<a href="https://twitter.com/iHouse_RIT" target="_blank" class="social-btn"><i class="fa fa-twitter"></i></a>
-					<a href="mailto:rit.i.house@gmail.com" target="_blank" class="social-btn"><i class="fa fa-envelope"></i></a>
-				</div>
-			</div>
-		</div>
-		<div class="row nav-footer">
-			<div class="col-xs-11 col-xs-offset-1 col-sm-3 col-sm-offset-3">
-				<h4>Pages</h4>
-				<div class="row"><a href="index.html" class="footer-link" >Home</a></div>
-			</div>
-			<div class="col-xs-11 col-xs-offset-1 col-sm-3">
-				<h4>Pages</h4>
-				<div class="row"> Footer </div>
-				<div class="row"> Footer </div>
-				<div class="row"> Footer </div>
-				<div class="row"> Footer </div>
-			</div>
-		</div>
 
-    <!-- Site Nav Footer -->
-		<div class="site-nav-footer">
+          <!-- Facebook Feed Area // Couldn't get this to work right. This is officially TODO.
+      <div class="facebook-feed-area text-center">
+          <div class="fb-page" data-href="https://www.facebook.com/ritinternationalhouse/" data-tabs="timeline" data-height="480" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/ritinternationalhouse/"><a href="https://www.facebook.com/ritinternationalhouse/">International House</a></blockquote></div></div>
+      </div> -->
 
-		</div> <!-- / Site Nav Footer -->
+          <!-- Social Media Footer -->
+      <div class="social-footer-area">
+    		<div class="row">
+    			<div class="span12 text-center social-footer">
+    				<a href="https://www.facebook.com/ritinternationalhouse/timeline" target="_blank" class="social-btn"><i class="fa fa-facebook"></i></a>
+    				<a href="https://twitter.com/iHouse_RIT" target="_blank" class="social-btn"><i class="fa fa-twitter"></i></a>
+    				<a href="#contact" target="_blank" class="social-btn"><i class="fa fa-envelope"></i></a>
+            <a href="https://instagram.com/international.house/" target="_blank" class="social-btn"><i class="fa fa-instagram"></i></a>
+            <a href="https://pinterest.com/ihouse_rit/" target="_blank" class="social-btn"><i class="fa fa-pinterest"></i></a>
+    			</div>
+    		</div>
+      </div>
+
+
+          <!-- Site Navigation Pager -->
+      <div class="site-nav-pager">
+        		<div class="col-sm-6 nav-footer">
+
+                <!-- Site Pages -->
+        			<div class="col-xs-6 col-sm-4 footer-chunk">
+        				<h4>Pages</h4>
+        				<div class="row"><a href="index.html" class="footer-link" > Home</a></div>
+        				<div class="row"><a href="#" class="footer-link" > About</a></div>
+        				<div class="row"><a href="#" class="footer-link" > Membership </a></div>
+        				<div class="row"><a href="#" class="footer-link" > Facilities </a></div>
+        				<div class="row"><a href="#" class="footer-link" > Events </a></div>
+        				<div class="row"><a href="#" class="footer-link" > Calendar </a></div>
+        				<div class="row"><a href="#" class="footer-link" > Contact </a></div>
+        			</div>
+
+              <!-- Link to Affiliates -->
+        			<div class="col-xs-6 col-sm-4 footer-chunk">
+        				<h4>Affiliates</h4>
+        				<div class="row"><a href="http://www.rit.edu/clubs/globalunion/" class="footer-link" > Global Union</a></div>
+        				<div class="row"><a href="#" class="footer-link" > Taiwanese Culture Association</a></div>
+        				<div class="row"><a href="#" class="footer-link" > Asian Culture Society </a></div>
+        				<div class="row"><a href="#" class="footer-link" > Facilities </a></div>
+        			</div>
+
+              <!-- Link to Social Media -->
+        			<div class="col-xs-6 col-sm-4 footer-chunk">
+        				<h4>Social Media</h4>
+        				<div class="row"><a href="https://www.facebook.com/ritinternationalhouse/timeline" class="footer-link" > Facebook</a></div>
+        				<div class="row"><a href="https://twitter.com/iHouse_RIT" class="footer-link" > Twitter</a></div>
+        				<div class="row"><a href="#contact" class="footer-link" > Email</a></div>
+        				<div class="row"><a href="https://instagram.com/international.house/" class="footer-link" > Instagram</a></div>
+        				<div class="row"><a href="https://pinterest.com/ihouse_rit/" class="footer-link" > Pinterest</a></div>
+        				<div class="row"><a href="#" class="footer-link" > Tumblr</a></div>
+        			</div>
+        		</div>
+
+      </div>
+
+		</div> <!-- End container-fluid Tag -->
 	</footer>  <!-- End Footer Tag -->
 </div> <!-- End Website Tag -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+
 </body>
 </html>

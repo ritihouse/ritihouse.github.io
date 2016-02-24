@@ -77,7 +77,23 @@ footer {
 .nav-footer a {
 	color: #fff;
 }
-
+.facebook-feed-area {
+	width: 400px;
+	height: 800px;
+	background-color: #e5e5e5;
+}
+.site-nav-pager {
+	margin-bottom: 100px;
+}
+.nav-footer {
+	margin-left: 15px;
+	margin-right: 50%;
+	padding: 5px 15px;
+}
+.footer-chunk {
+	margin-bottom: 25px;
+	padding: 5px 15px;
+}
 
 /* ==========================================================================
 Navbar
@@ -336,6 +352,12 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 
 	.navbar-link {
 		font-size: 28px;
+	}
+
+	.nav-footer {
+		margin-left: 15px;
+		margin-right: 0px;
+		padding: 5px 15px;
 	}
 }
 
