@@ -34,17 +34,7 @@
 	</div>
 	-->
 
-    <!--  FACEBOOK JQUERY CALL <div id="fb-root"></div>
-      <script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script> -->
-
 <div class="website">
-
   <!-- Navbar -->
 	<nav class="navbar navbar-ihouse navbar-fixed-top">
 		<div class="container-fluid">
@@ -176,6 +166,8 @@
 		</div>
 	</nav>
 
+
+<div class="container-fluid">
 	<div class="space row"></div>
 
   <!-- Body -->
@@ -195,34 +187,57 @@
       <div class="span6 center-block divider"></div>
   </div>
 
+  </div>
+
   <!-- Footer -->
 	<footer class="footer">
 		<div class="container-fluid">
-          <!-- Facebook Feed Area // Couldn't get this to work right. This is officially TODO.
-      <div class="facebook-feed-area text-center">
-          <div class="fb-page" data-href="https://www.facebook.com/ritinternationalhouse/" data-tabs="timeline" data-height="480" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/ritinternationalhouse/"><a href="https://www.facebook.com/ritinternationalhouse/">International House</a></blockquote></div></div>
-      </div> -->
-
           <!-- Social Media Footer -->
       <div class="social-footer-area">
     		<div class="row">
-    			<div class="col-sm-12 text-center social-footer">
+    			<div class="col-xs-12 text-center social-footer">
             <h5>Connect with us!<h5>
     				<a href="https://www.facebook.com/ritinternationalhouse/timeline" target="_blank" class="social-btn"><i class="fa fa-facebook"></i></a>
     				<a href="https://twitter.com/iHouse_RIT" target="_blank" class="social-btn"><i class="fa fa-twitter"></i></a>
     				<a href="#contact" target="_blank" class="social-btn"><i class="fa fa-envelope"></i></a>
             <a href="https://instagram.com/international.house/" target="_blank" class="social-btn"><i class="fa fa-instagram"></i></a>
             <a href="https://pinterest.com/ihouse_rit/" target="_blank" class="social-btn"><i class="fa fa-pinterest"></i></a>
-            <h6>Copyright [2016] [Ian Effendi and Jason Carr]</h6>
-            <small>This website uses the <a href="http://getbootstrap.com/" target="_blank" id="normal-link">Bootstrap</a> framework.</small>
     			</div>
     		</div>
       </div>
 
 
-          <!-- Site Navigation Pager -->
       <div class="site-nav-pager">
 
+                  <!-- Site Navigation Pager (This is for site-crawling robots for Google/Bing/etc. search directories. It's important to have!) -->
+        <div class="pagination center-block container">
+          <!-- We want Pages, Affiliations, Social Media Links, and Links to important RIT websites. That's 4 columns on a large screen. Two columns on a small screen. Remember columns go inside row divs. -->
+          <div class="row">
+            <div class="col-sm-3"> <!-- Site Pages -->
+                <h4>Pages</h4>
+            </div>
+
+            <div class="col-sm-3"> <!-- Affiliations -->
+                <h4>Affiliations</h4>
+            </div>
+
+            <div class="col-sm-3"> <!-- Links to other Websites -->
+                <h4>Social Media</h4>
+
+            </div>
+
+            <div class="col-sm-3"> <!-- Links to RIT websites -->
+                <h4>RIT Links</h4>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center center-block credentials">
+          <h6 class="hidden-xs">This website design is Copyright <i class="fa fa-fw fa-copyright"></i> [2016] [Ian Effendi and Jason Carr].<br/>You can find out more about the MIT License <a href="https://tldrlegal.com/license/mit-license#fulltext" target="_blank">here</a>.</h6>
+          <h6 class="hidden-sm hidden-md hidden-lg visible-xs"><i class="fa fa-fw fa-copyright"></i> 2016 - Ian Effendi and Jason Carr.<br/>Find out about the MIT License <a href="https://tldrlegal.com/license/mit-license#fulltext" target="_blank">here</a>.</h6>
+          <p>This website uses the <a href="http://getbootstrap.com/" target="_blank"><img class="fa fa-fw icon" src="img/bootstrap.ico"/></a><a href="http://getbootstrap.com/" target="_blank"> Bootstrap</a> framework.</p>
+        </div>
       </div>
 
 		</div> <!-- End container-fluid Tag -->

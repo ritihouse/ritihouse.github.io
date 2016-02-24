@@ -24,6 +24,7 @@ body {
 }
 .website{
 	width: 100%;
+	margin-right: 25px;
 }
 .divider {
 	width: 25%;
@@ -32,6 +33,18 @@ body {
 .space {
 	margin: 55px 0px;
 }
+.credentials > p,
+.credentials > h6{
+	font-family: "Merriweather", "Open Sans", serif;
+	font-size: 11px;
+	line-height: 150%;
+
+}
+
+
+	.credentials {
+			margin-top: 100px;
+	}
 
 @media (max-width: 767px) {
 	.space {
@@ -42,6 +55,13 @@ body {
 		font-family: "Cabin", sans-serif;
 		font-size: 14px;
 		line-height: 160%;
+	}
+
+	.credentials > p,
+	.credentials > h6 {
+		font-family: "Cabin", sans-serif;
+		font-size: 10px;
+		line-height: 200%;
 	}
 }
 
@@ -69,7 +89,7 @@ Footer
 ========================================================================== */
 
 footer {
-	height:500px;
+	height: auto;
 	width: 100%;
 	background-color: #030910;
 	color: #ffffff;
@@ -120,38 +140,37 @@ footer > .container-fluid {
 .nav-footer a {
 	color: #fff;
 }
-.facebook-feed-area {
-	width: 400px;
-	height: 800px;
-	background-color: #e5e5e5;
-}
+
 .site-nav-pager {
-	margin-bottom: 100px;
+	margin: 15px 0px;
 }
+
 .nav-footer {
 	clear: left;
 	margin-left: 15px;
 	padding: 5px 15px;
 }
-.footer-chunk {
-	margin-bottom: 35px;
-	padding: 5px 15px;
-}
+
+/* ===========================================================================
+Dividers
+=========================================================================== */
+
 .left-divider {
 	border-left: 1px solid #fff;
 }
+
 .right-divider {
 	border-right: 1px solid #fff;
 }
+
 .bottom-divider {
 	border-bottom: 1px solid #fff;
 }
+
 .top-divider {
 	border-top: 1px solid #fff;
 }
-.footer-sides {
-	clear:both;
- }
+
 /* ==========================================================================
 Navbar
 ========================================================================== */
@@ -159,7 +178,7 @@ Navbar
 .navbar-ihouse {
   background-color: #4b92db;
   border-color: #3476b4;
-	padding-right: 20px;
+	padding-right: 0px;
 }
 
 .navbar-ihouse .navbar-brand {
