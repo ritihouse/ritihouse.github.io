@@ -48,7 +48,7 @@ Instagram: [@international.house](https://www.instagram.com/international.house/
 (We also have an official Reddit account...for official business on the [RIT subreddit](https://www.reddit.com/r/rit/).)
 
 ### Can't find us somewhere?
-Shoot us an [email](rit.i.house@gmail.com) with suggestions on where we should expand to next!
+Shoot us an [email](mailto:rit.i.house@gmail.com) with suggestions on where we should expand to next!
 
 
   
