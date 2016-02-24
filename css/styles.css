@@ -10,6 +10,10 @@
 Global
 ========================================================================== */
 
+html {
+	width: 100%;
+	margin: 0;
+}
 p, div {
 	font-family: "Open Sans", sans-serif;
 	font-size: 18px;
@@ -22,10 +26,11 @@ h1, h2, h3, h4, h5, h6,
 }
 body {
 	background-color: #f2efea;
+	width: 100%;
 }
 .website{
 	width: 100%;
-	margin-right: 25px;
+	margin-right: 0px;
 }
 .divider {
 	width: 25%;
