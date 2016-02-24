@@ -1,10 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,latin-ext);
+/*
+	MIT LICENSE
+	Copyright [2016] [Ian Effendi and Jason Carr]
+
+	This document is a customized stylesheet for the International House webpage.
+*/
 
 /* ==========================================================================
 Global
 ========================================================================== */
 
 p, div {
-	font-family: "Cabin", sans-serif;
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	line-height: 150%;
 }
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -16,8 +25,25 @@ body {
 .website{
 	width: 100%;
 }
+.divider {
+	width: 25%;
+	border-top: 1px solid #212121;
+}
+.space {
+	margin: 55px;
+}
 
+@media (max-width: 767px) {
+	.space {
+		 margin: 50px;
+	}
 
+	p, div {
+		font-family: "Cabin", sans-serif;
+		font-size: 14px;
+		line-height: 160%;
+	}
+}
 
 
 /* ==========================================================================
@@ -43,14 +69,31 @@ Footer
 ========================================================================== */
 
 footer {
-	height:auto;
+	height:500px;
+	width: 100%;
 	background-color: #030910;
 	color: #ffffff;
+}
+
+footer > .container-fluid {
+	padding: 0;
+}
+
+.social-footer-area {
+	background: #f2efea;
+	color: #242830;
+}
+
+.social-footer-area > .row {
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .social-footer {
 	padding-top: 30px;
 	padding-bottom: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .social-footer a {
@@ -86,15 +129,29 @@ footer {
 	margin-bottom: 100px;
 }
 .nav-footer {
+	clear: left;
 	margin-left: 15px;
-	margin-right: 50%;
 	padding: 5px 15px;
 }
 .footer-chunk {
-	margin-bottom: 25px;
+	margin-bottom: 35px;
 	padding: 5px 15px;
 }
-
+.left-divider {
+	border-left: 1px solid #fff;
+}
+.right-divider {
+	border-right: 1px solid #fff;
+}
+.bottom-divider {
+	border-bottom: 1px solid #fff;
+}
+.top-divider {
+	border-top: 1px solid #fff;
+}
+.footer-sides {
+	clear:both;
+ }
 /* ==========================================================================
 Navbar
 ========================================================================== */
