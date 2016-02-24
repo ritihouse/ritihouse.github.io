@@ -58,6 +58,10 @@ footer {
 .social-btn:hover, .social-btn:focus { background: #4b92db; color: #fff; }
 .social { margin-top: 25px }
 
+.nav-footer a {
+	color: #fff;
+}
+
 
 /* ==========================================================================
 Navbar
