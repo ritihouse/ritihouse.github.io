@@ -30,12 +30,12 @@ body {
 	border-top: 1px solid #212121;
 }
 .space {
-	margin: 55px;
+	margin: 55px 0px;
 }
 
 @media (max-width: 767px) {
 	.space {
-		 margin: 50px;
+		 margin: 50px 0px;
 	}
 
 	p, div {
@@ -159,6 +159,7 @@ Navbar
 .navbar-ihouse {
   background-color: #4b92db;
   border-color: #3476b4;
+	padding-right: 5px;
 }
 
 .navbar-ihouse .navbar-brand {
