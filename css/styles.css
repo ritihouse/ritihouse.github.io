@@ -36,12 +36,10 @@ body {
 	width: 25%;
 	border-top: 1px solid #212121;
 }
-
 .divider-white {
 	width: 25%;
 	border-top: 1px solid #fff;
 }
-
 .space {
 	margin: 55px 0px;
 }
@@ -52,9 +50,12 @@ body {
 	line-height: 150%;
 
 }
-
 .credentials {
 		margin-top: 3%;
+}
+
+#bars span {
+	font-size: 28px;
 }
 
 @media (max-width: 767px) {
@@ -338,8 +339,8 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 	margin-right: 5px;
 
 	clear: left;
-	font-family: "Cabin", serif;
-	font-style: bold;
+	font-family: "Open Sans", serif;
+	font-style: normal;
 }
 
 /*navbar-mobile, navbar-desktop stylings*/
@@ -406,7 +407,7 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 		font-size: 18px;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1550px) {
 		.navbar-desktop-links {
 				position: relative;
 				float: right;
@@ -427,7 +428,7 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 		}
 }
 
-@media (max-width: 991px){
+@media (max-width: 1200px){
 		.navbar-desktop-links {
 				position: relative;
 				float: right;
@@ -460,9 +461,9 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 		margin-right: 5px;
 
 		clear: none;
-		font-family: "Cabin", serif;
+		font-family: "Open Sans", serif;
 		font-size: 28px;
-		font-style: bold;
+		font-style: normal;
 	}
 
 	.navbar-mobile-header {
@@ -494,13 +495,13 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 		margin-right: 5px;
 
 		clear: none;
-		font-family: "Cabin", serif;
+		font-family: "Open Sans", serif;
 		font-size: 20px;
-		font-style: bold;
+		font-style: normal;
 	}
 
 	p, div, a {
-		font-size: 20px;
+		font-size: 22px;
 	}
 
 	#bars span{
@@ -508,15 +509,15 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 	}
 }
 
-@media (max-width: 385px) {
-	 .logo-text {
-		 margin-top: -47.5px;
-	 }
+@media (max-width: 387px) {
+		 .logo-text {
+			 margin-top: -56.5px;
+		 }
 }
 
-@media (max-width: 377px) {
+@media (max-width: 352px) {
 	 .logo-text {
-		 margin-top: -46.5px;
+		 margin-top: -53.5px;
 		 font-size:16px;
 	 }
 
@@ -536,22 +537,8 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 	 	}
 }
 
-@media (max-width: 345px) {
-	 .logo-text {
-		 margin-top: -43.5px;
-		 font-size: 14px;
-	 }
-}
-
-@media (max-width: 328px) {
-	 .logo-text {
-		 margin-top: -43.5px;
-		 font-size: 12px;
-	 }
-}
-
-@media (max-width: 310px) {
-		 .logo-text {
-			 display: none;
-		 }
+@media (max-width: 302px){
+		.logo-text {
+			display: none;
+		}
 }
