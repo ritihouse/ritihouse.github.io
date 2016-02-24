@@ -476,6 +476,24 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 
 @media (max-width: 470px) {
 	.logo-text {
-		display: none;
+		color: #ffffff;
+
+		display: block;
+
+		margin-top: -47.5px;
+		margin-bottom: 24.5px;
+		margin-left: 0px;
+		margin-right: 5px;
+
+		clear: none;
+		font-family: "Cabin", serif;
+		font-size: 20px;
+		font-style: bold;
 	}
+}
+
+@media (max-width: 379px) {
+	 .logo-text {
+		 display: none;
+	 }
 }
