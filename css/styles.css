@@ -152,6 +152,8 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 .logo-text {
 	display: inline-block;
 	clear: left;
+	font-family: "Merriweather", serif;
+	font-style: bold;
 }
 
 @media (max-width: 767px) {
