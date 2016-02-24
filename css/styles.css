@@ -214,7 +214,8 @@ Navbar
 .navbar-ihouse {
   background-color: #4b92db;
   border-color: #3476b4;
-	padding-right: 25px;
+	padding-right: 12px;
+	margin-right: -1px;
 }
 
 .navbar-ihouse .navbar-brand {
