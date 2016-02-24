@@ -1,3 +1,16 @@
+
+
+/* ==========================================================================
+Hero
+========================================================================== */
+
+.hero { background: url('../img/ihouse.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto; }
+
+
+/* ==========================================================================
+Navbar
+========================================================================== */
+
 .navbar-ihouse {
   background-color: #4f8fcc;
   border-color: #3476b4;
