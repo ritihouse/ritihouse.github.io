@@ -499,6 +499,12 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 	 }
 }
 
+@media (max-width: 371px) {
+	 .logo-text {
+		 margin-top: -53.5px;
+	 }
+}
+
 @media (max-width: 334px) {
 	 .logo-text {
 		 margin-top: -50px;
