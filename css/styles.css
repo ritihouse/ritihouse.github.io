@@ -247,18 +247,55 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 	margin-bottom: 15px;
 }
 
+
+.navbar-desktop-links {
+		position: relative;
+		float: right;
+		margin-right: 0px;
+		padding: 4px 10px;
+		margin-top: 2.5px;
+		margin-bottom: 5px;
+		background-color: transparent;
+		background-image: none;
+		border: 1px solid transparent;
+		border-radius: 0;
+
+		font-size: 14px;
+}
+
+@media (max-width: 991px) {
+	.navbar-desktop-links {
+			position: relative;
+			float: right;
+			margin-right: 15px;
+			padding: 4px 10px;
+			margin-top: 2.5px;
+			margin-bottom: 5.5px;
+			background-color: transparent;
+			background-image: none;
+			border: 1px solid transparent;
+			border-radius: 0;
+
+			font-size: 20px;
+	}
+
+	.hidden-996px {
+		 display: none;
+	}
+}
+
 @media (max-width: 767px) {
 	.logo-text {
 		color: #ffffff;
 
 		display: block;
 
-		margin-top: -50px;
-		margin-bottom: 22px;
+		margin-top: -52.5px;
+		margin-bottom: 24.5px;
 
 		clear: none;
-		font-family: "Cabin", serif
-		font-size: 24px;
+		font-family: "Cabin", serif;
+		font-size: 28px;
 		font-style: bold;
 	}
 
@@ -266,6 +303,10 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 		height: 50px;
 		margin-top: 5px;
 		margin-bottom: 15px;
+	}
+
+	.navbar-link {
+		font-size: 28px;
 	}
 }
 
