@@ -12,6 +12,7 @@ Global
 
 html {
 	width: 100%;
+	height: auto;
 	margin: 0;
 }
 p, div {
@@ -27,6 +28,7 @@ h1, h2, h3, h4, h5, h6,
 body {
 	background-color: #f2efea;
 	width: 100%;
+	height: 100%;
 }
 .website{
 	width: 100%;
@@ -171,7 +173,7 @@ footer > .container-fluid {
 }
 
 .site-nav-pager {
-	margin: 25px 0;
+	margin-top: 25px;
 }
 
 .nav-footer {
