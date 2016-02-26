@@ -1,313 +1,439 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=0.8, user-scalable=no" />
-    <meta name="HandheldFriendly" content="true" />
-    <meta name="referrer" content="always" />
-    <meta name="author" content="Ian Effendi Jason Carr" />
-	<meta name="description" content="International House Website" />
-	<meta property="og:title" content="International House" />
-	<meta property="og:type" content="website" />
-	<meta property="og:image" content="http://sih.csh.rit.edu/ihouse/img/logo2.jpg" />
-	<meta name="googlebot-image" content="noimageindex" />
-	<!--Link for the icon on tabs-->
-	<link rel="icon" href="img/favicon.ico" />
-	<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700|Cabin:400,400italic,600,600italic&subset=latin-ext' rel='stylesheet' type='text/css' />
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=0.8, user-scalable=no"/>
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="referrer" content="always"/>
+    <meta name="author" content="Ian Effendi Jason Carr"/>
+    <meta name="description" content="International House Website"/>
+    <meta property="og:title" content="International House"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="http://sih.csh.rit.edu/ihouse/img/logo2.jpg"/>
+    <meta name="googlebot-image" content="noimageindex"/>
+    <!--Link for the icon on tabs-->
+    <link rel="icon" href="img/favicon.ico"/>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700|Cabin:400,400italic,600,600italic&subset=latin-ext' rel='stylesheet' type='text/css'/>
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
-	<title>International House</title>
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	<link href="css/animate.css" rel="stylesheet" />
-	<link href="css/bootstrap.min.css" rel="stylesheet" />
-	<link href="css/styles.css" rel="stylesheet" />
-</head>
-<body>
-
-
-<!-- Website -->
+    <title>
+      International House 
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="css/animate.css" rel="stylesheet"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <!-- Website -->
     <div class="website">
       <!-- NAVBAR -->
       <nav class="navbar navbar-ihouse navbar-fixed-top">
-          <div class="container-fluid">
-              <div class="container" id="page-top"> <!-- Page Top -->
-
-                      <!-- Mobile first
-
-                        We design with mobile first in mind,
-                        to keep our websites responsive and accessible,
-                        from the get-go.
-
-                      -->
-
-                      <div class="visible-xs hidden-sm hidden-md hidden-lg">
-                          <div class="navbar-mobile-header">
-
-                                <!-- Toggle Navigation Button -->
-                                  <button id="bars" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-mobile-collapse">
-                                      <span class="sr-only">Toggle Navigation</span>
-                                      <span class="fa fa-2x fa-inverse fa-bars"></span> <!-- Bars button -->
-                                  </button>
-
-                                  <!-- Brand / Logo / Home page Button -->
-                                  <a id="brand" class="navbar-brand" href="#page-top">
-                                      <img id="brand-img" class="center-block img-square" src="img/brand.ico" />
-                                  </a>
-
-                          </div>
-
-                          <!-- Banner Logo Name -->
-                          <h3 class="logo-text text-center">International House</h3>
-
-                          <!-- Mobile Tabs --><div class="navbar-collapse collapse" id="navbar-mobile-collapse">
-                              <ul class="nav navbar-nav navbar-ihouse">
-                                <!-- ABOUT -->
-                                 <li class="navbar-link">
-                                    <a class="text-center" href="#">
-                                      <i class="fa fa-fw fa-info-circle"></i> About
-                                      <span class="sr-only">(current)</span> <!-- For Screen Readers (accessibility for blind persons) -->
-                                    </a>
-                                </li>
-
-                                <!-- MEMBERSHIP -->
-                                <li class="navbar-link">
-                                     <a class="text-center" href="#">
-                                       <i class="fa fa-fw fa-group"></i> Membership
-                                     </a>
-                                </li>
-
-                                <!-- FACILITIES -->
-                                <li class="navbar-link">
-                                     <a class="text-center" href="#">
-                                       <i class="fa fa-fw fa-paw"></i> Facilities
-                                     </a>
-                                </li>
-
-                                <!-- EVENTS -->
-                                <li class="navbar-link">
-                                     <a class="text-center" href="#">
-                                       <i class="fa fa-fw fa-globe"></i> Events
-                                     </a>
-                                </li>
-
-                                <!-- CALENDAR -->
-                                <li class="navbar-link">
-                                     <a class="text-center" href="#">
-                                       <i class="fa fa-fw fa-calendar-check-o"></i> Calendar
-                                     </a>
-                                </li>
-
-                                <!-- CONTACT -->
-                                <li class="navbar-link">
-                                     <a class="text-center" href="#">
-                                       <i class="fa fa-fw fa-sign-in"></i> Contact Us
-                                     </a>
-                                </li>
-
-                              </ul>
-                          </div>
-                      </div>
-
-                      <!-- Desktop Header -->
-                      <div class="hidden-xs visible-sm visible-md visible-lg">
-                          <div class="navbar-desktop-header">
-                              <a id="brand" class="navbar-brand" href="#page-top">
-                                  <img id="brand-img" class="center-block img-square" src="img/brand.ico" />
-                              </a>
-
-                              <h3 class="logo-text text-center hidden-xs">International House</h3>
-
-                              <!-- Button Links on Desktop Version of Site -->
-                              <div class="navbar-desktop-links">
-                                <ul class="nav navbar-nav navbar-ihouse">
-                                  <!-- ABOUT -->
-                                   <li class="navbar-link">
-                                      <a class="text-center navbar-link-padding" href="#">
-                                        <i class="fa fa-fw fa-info-circle"></i><span class="hidden-custom"> About</span>
-                                        <span class="sr-only">(current)</span> <!-- For Screen Readers (accessibility for blind persons) -->
-                                      </a>
-                                  </li>
-
-                                  <!-- MEMBERSHIP -->
-                                  <li class="navbar-link">
-                                       <a class="text-center navbar-link-padding" href="#">
-                                         <i class="fa fa-fw fa-group"></i><span class="hidden-custom"> Membership</span>
-                                       </a>
-                                  </li>
-
-                                  <!-- FACILITIES -->
-                                  <li class="navbar-link">
-                                       <a class="text-center navbar-link-padding" href="#">
-                                         <i class="fa fa-fw fa-paw"></i><span class="hidden-custom"> Facilities</span>
-                                       </a>
-                                  </li>
-
-                                  <!-- EVENTS -->
-                                  <li class="navbar-link">
-                                       <a class="text-center navbar-link-padding" href="#">
-                                         <i class="fa fa-fw fa-globe"></i><span class="hidden-custom"> Events</span>
-                                       </a>
-                                  </li>
-
-                                  <!-- CALENDAR -->
-                                  <li class="navbar-link">
-                                       <a class="text-center navbar-link-padding" href="#">
-                                         <i class="fa fa-fw fa-calendar-check-o"></i><span class="hidden-custom"> Calendar</span></span>
-                                       </a>
-                                  </li>
-
-                                  <!-- CONTACT -->
-                                  <li class="navbar-link">
-                                       <a class="text-center navbar-link-padding" href="#">
-                                         <i class="fa fa-fw fa-sign-in"></i><span class="hidden-custom"> Contact Us</span>
-                                       </a>
-                                  </li>
-
-                                </ul>
-                              </div>
-                          </div>
-                      </div>
+        <div class="container-fluid">
+          <div class="container" id="page-top">
+            <!-- Page Top -->
+            <!-- Mobile first
+              We design with mobile first in mind,
+              to keep our websites responsive and accessible,
+              from the get-go.
+              -->
+            <div class="visible-xs hidden-sm hidden-md hidden-lg">
+              <div class="navbar-mobile-header">
+                <!-- Toggle Navigation Button -->
+                <button id="bars" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-mobile-collapse">
+                  <span class="sr-only">
+                  Toggle Navigation </span>
+                  <span class="fa fa-2x fa-inverse fa-bars">
+                  </span>
+                  <!-- Bars button -->
+                </button>
+                <!-- Brand / Logo / Home page Button -->
+                <a id="brand" class="navbar-brand" href="index.html">
+                <img id="brand-img" class="center-block img-square" src="img/brand.ico"/>
+                </a>
               </div>
+              <!-- Banner Logo Name -->
+              <h3 class="logo-text text-center">
+                International House 
+              </h3>
+              <!-- Mobile Tabs -->
+              <div class="navbar-collapse collapse" id="navbar-mobile-collapse">
+                <ul class="nav navbar-nav navbar-ihouse">
+                  <!-- ABOUT -->
+                  <li class="navbar-link">
+                    <a class="text-center" href="about.html">
+                      <i class="fa fa-fw fa-info-circle">
+                      </i>
+                      About <span class="sr-only">
+                      (current) </span>
+                      <!-- For Screen Readers (accessibility for blind persons) -->
+                    </a>
+                  </li>
+                  <!-- MEMBERSHIP -->
+                  <li class="navbar-link">
+                    <a class="text-center" href="membership.html">
+                    <i class="fa fa-fw fa-group">
+                    </i>
+                    Membership </a>
+                  </li>
+                  <!-- FACILITIES -->
+                  <li class="navbar-link">
+                    <a class="text-center" href="facilities.html">
+                    <i class="fa fa-fw fa-paw">
+                    </i>
+                    Facilities </a>
+                  </li>
+                  <!-- EVENTS -->
+                  <li class="navbar-link">
+                    <a class="text-center" href="events.html">
+                    <i class="fa fa-fw fa-globe">
+                    </i>
+                    Events </a>
+                  </li>
+                  <!-- CALENDAR -->
+                  <li class="navbar-link">
+                    <a class="text-center" href="calendar.html">
+                    <i class="fa fa-fw fa-calendar-check-o">
+                    </i>
+                    Calendar </a>
+                  </li>
+                  <!-- CONTACT -->
+                  <li class="navbar-link">
+                    <a class="text-center" href="contact.html">
+                    <i class="fa fa-fw fa-sign-in">
+                    </i>
+                    Contact Us </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Desktop Header -->
+            <div class="hidden-xs visible-sm visible-md visible-lg">
+              <div class="navbar-desktop-header">
+                <a id="brand" class="navbar-brand" href="index.html">
+                <img id="brand-img" class="center-block img-square" src="img/brand.ico"/>
+                </a>
+                <h3 class="logo-text text-center hidden-xs">
+                  International House 
+                </h3>
+                <!-- Button Links on Desktop Version of Site -->
+                <div class="navbar-desktop-links">
+                  <ul class="nav navbar-nav navbar-ihouse">
+                    <!-- ABOUT -->
+                    <li class="navbar-link">
+                      <a class="text-center navbar-link-padding" href="about.html">
+                        <i class="fa fa-fw fa-info-circle">
+                        </i>
+                        <span class="hidden-custom">
+                        About </span>
+                        <span class="sr-only">
+                        (current) </span>
+                        <!-- For Screen Readers (accessibility for blind persons) -->
+                      </a>
+                    </li>
+                    <!-- MEMBERSHIP -->
+                    <li class="navbar-link">
+                      <a class="text-center navbar-link-padding" href="membership.html">
+                      <i class="fa fa-fw fa-group">
+                      </i>
+                      <span class="hidden-custom">
+                      Membership </span>
+                      </a>
+                    </li>
+                    <!-- FACILITIES -->
+                    <li class="navbar-link">
+                      <a class="text-center navbar-link-padding" href="facilities.html">
+                      <i class="fa fa-fw fa-paw">
+                      </i>
+                      <span class="hidden-custom">
+                      Facilities </span>
+                      </a>
+                    </li>
+                    <!-- EVENTS -->
+                    <li class="navbar-link">
+                      <a class="text-center navbar-link-padding" href="events.html">
+                      <i class="fa fa-fw fa-globe">
+                      </i>
+                      <span class="hidden-custom">
+                      Events </span>
+                      </a>
+                    </li>
+                    <!-- CALENDAR -->
+                    <li class="navbar-link">
+                      <a class="text-center navbar-link-padding" href="calendar.html">
+                      <i class="fa fa-fw fa-calendar-check-o">
+                      </i>
+                      <span class="hidden-custom">
+                      Calendar </span>
+                      </span>
+                      </a>
+                    </li>
+                    <!-- CONTACT -->
+                    <li class="navbar-link">
+                      <a class="text-center navbar-link-padding" href="contact.html">
+                      <i class="fa fa-fw fa-sign-in">
+                      </i>
+                      <span class="hidden-custom">
+                      Contact Us </span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
+        </div>
       </nav>
-	  
       <!-- Whitespace + Divider -->
       <div class="container">
-          <div class="space row"></div>		  
+        <div class="space row">
+        </div>
       </div>
-	  
       <!-- CONTENT -->
       <section class="text-center section-padding">
-
-            <!-- Divider -->
-            <div class="divider center-block"></div>
-
-            <!-- Space -->
-            <div class="space"></div>
-
-            <!-- Container for Content -->
-            <div class="container center-block">
-
-                <!-- ROW and THEN columns -->
-                <div class="row">
-                    <div class="col-md-12">
-            				This is a body of text below the hero that continues for some time,
-            				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est. Vivamus fermentum semper porta. Nunc diam velit, adipiscing ut tristique vitae, sagittis vel odio. Maecenas convallis ullamcorper ultricies. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, id fringilla sem nunc vel mi. Nam dictum, odio nec pretium volutpat, arcu ante placerat erat, non tristique elit urna et turpis. Quisque mi metus, ornare sit amet fermentum et, tincidunt et orci. Fusce eget orci a orci congue vestibulum. Ut dolor diam, elementum et vestibulum eu, porttitor vel elit. Curabitur venenatis pulvinar tellus gravida ornare. Sed et erat faucibus nunc euismod ultricies ut id justo. Nullam cursus suscipit nisi, et ultrices justo sodales nec. Fusce venenatis facilisis lectus ac semper. Aliquam at massa ipsum. Quisque bibendum purus convallis nulla ultrices ultricies. Nullam aliquam, mi eu aliquam tincidunt, purus velit laoreet tortor, viverra pretium nisi quam vitae mi. Fusce vel volutpat elit. Nam sagittis nisi dui. Suspendisse lectus leo, consectetur in tempor sit amet, placerat quis neque. Etiam luctus porttitor lorem, sed suscipit est rutrum non. Curabitur lobortis nisl a enim congue semper. Aenean commodo ultrices imperdiet. Vestibulum ut justo vel sapien venenatis tincidunt. Phasellus eget dolor sit amet ipsum dapibus condimentum vitae quis lectus. Aliquam ut massa in turpis dapibus convallis. Praesent elit lacus, vestibulum at malesuada et, ornare et est. Ut augue nunc, sodales ut euismod non, adipiscing vitae orci. Mauris ut placerat justo. Mauris in ultricies enim. Quisque nec est eleifend nulla ultrices egestas quis ut quam. Donec sollicitudin lectus a mauris pulvinar id aliquam urna cursus. Cras quis ligula sem, vel elementum mi. Phasellus non ullamcorper urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In euismod ultrices facilisis. Vestibulum porta sapien adipiscing augue congue id pretium lectus molestie. Proin quis dictum nisl. Morbi id quam sapien, sed vestibulum sem. Duis elementum rutrum mauris sed convallis. Proin vestibulum magna mi. Aenean tristique hendrerit magna, ac facilisis nulla hendrerit ut. Sed non tortor sodales quam auctor elementum. Donec hendrerit nunc eget elit pharetra pulvinar. Suspendisse id tempus tortor. Aenean luctus, elit commodo laoreet commodo, justo nisi consequat massa, sed vulputate quam urna quis eros. Donec vel.
-            				</div>
-                </div>
+        <!-- Divider -->
+        <div class="divider center-block">
+        </div>
+        <!-- Space -->
+        <div class="space">
+        </div>
+        <!-- Container for Content -->
+        <div class="container center-block">
+          <!-- ROW and THEN columns -->
+          <div class="row">
+            <div class="col-md-12">
+              This is a body of text below the hero that continues for some time, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est. Vivamus fermentum semper porta. Nunc diam velit, adipiscing ut tristique vitae, sagittis vel odio. Maecenas convallis ullamcorper ultricies. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, id fringilla sem nunc vel mi. Nam dictum, odio nec pretium volutpat, arcu ante placerat erat, non tristique elit urna et turpis. Quisque mi metus, ornare sit amet fermentum et, tincidunt et orci. Fusce eget orci a orci congue vestibulum. Ut dolor diam, elementum et vestibulum eu, porttitor vel elit. Curabitur venenatis pulvinar tellus gravida ornare. Sed et erat faucibus nunc euismod ultricies ut id justo. Nullam cursus suscipit nisi, et ultrices justo sodales nec. Fusce venenatis facilisis lectus ac semper. Aliquam at massa ipsum. Quisque bibendum purus convallis nulla ultrices ultricies. Nullam aliquam, mi eu aliquam tincidunt, purus velit laoreet tortor, viverra pretium nisi quam vitae mi. Fusce vel volutpat elit. Nam sagittis nisi dui. Suspendisse lectus leo, consectetur in tempor sit amet, placerat quis neque. Etiam luctus porttitor lorem, sed suscipit est rutrum non. Curabitur lobortis nisl a enim congue semper. Aenean commodo ultrices imperdiet. Vestibulum ut justo vel sapien venenatis tincidunt. Phasellus eget dolor sit amet ipsum dapibus condimentum vitae quis lectus. Aliquam ut massa in turpis dapibus convallis. Praesent elit lacus, vestibulum at malesuada et, ornare et est. Ut augue nunc, sodales ut euismod non, adipiscing vitae orci. Mauris ut placerat justo. Mauris in ultricies enim. Quisque nec est eleifend nulla ultrices egestas quis ut quam. Donec sollicitudin lectus a mauris pulvinar id aliquam urna cursus. Cras quis ligula sem, vel elementum mi. Phasellus non ullamcorper urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In euismod ultrices facilisis. Vestibulum porta sapien adipiscing augue congue id pretium lectus molestie. Proin quis dictum nisl. Morbi id quam sapien, sed vestibulum sem. Duis elementum rutrum mauris sed convallis. Proin vestibulum magna mi. Aenean tristique hendrerit magna, ac facilisis nulla hendrerit ut. Sed non tortor sodales quam auctor elementum. Donec hendrerit nunc eget elit pharetra pulvinar. Suspendisse id tempus tortor. Aenean luctus, elit commodo laoreet commodo, justo nisi consequat massa, sed vulputate quam urna quis eros. Donec vel.
             </div>
+          </div>
+        </div>
       </section>
-
       <!-- Whitespace + Divider -->
       <div class="container">
-          <div class="space row"></div>		  
-	      <div class="span6 center-block divider"></div>
+        <div class="space row">
+        </div>
+        <div class="span6 center-block divider">
+        </div>
       </div>
-
       <!-- FOOTER -->
       <footer class="footer">
-          
-				<!-- Pre-Footer (Social Media Footer) -->
-              <div class="social-footer-area">
-            		<div class="row">
-            			<div class="col-xs-12 text-center social-footer">
-							 <h5>Connect with us!<h5>
-            				<a href="https://www.facebook.com/ritinternationalhouse/timeline" target="_blank" class="social-btn"><i class="fa fa-facebook"></i></a>
-            				<a href="https://twitter.com/iHouse_RIT" target="_blank" class="social-btn"><i class="fa fa-twitter"></i></a>
-            				<a href="#contact" target="_blank" class="social-btn"><i class="fa fa-envelope"></i></a>
-							<a href="https://instagram.com/international.house/" target="_blank" class="social-btn"><i class="fa fa-instagram"></i></a>
-							<a href="https://pinterest.com/ihouse_rit/" target="_blank" class="social-btn"><i class="fa fa-pinterest"></i></a>
-            			</div>
-            		</div>
-              </div>
-
-              <!-- Site Navigation Pagination -->
-              <div class="site-nav-pager container-fluid center-block">
-
-                  <!-- Divider (White) -->
-                  <div class="divider-white center-block"></div>
-
-                  <div class="container-fluid">
-                        <!-- Site Navigation Pager (This is for site-crawling robots for Google/Bing/etc. search directories. It's important to have!) -->
-                        <div class="pagination center-block container nav-footer">
-                          <!-- We want Pages, Affiliations, Social Media Links, and Links to important RIT websites. That's 4 columns on a large screen. Two columns on a small screen. Remember columns go inside row divs. -->
-                          <div class="row center-block">
-							
-                              <!-- A -->
-                              <div class="col-xs-12 col-sm-6"> 
-                                <div class="row">
-                                  <div class="col-xs-6 pagination-column"> <!-- Site Pages -->
-                                      <h4>Pages</h4>
-                                      <div class="row"><a href="#home.html"> Home</a></div>
-                                      <div class="row"><a href="#about.html"> About</a></div>
-                                      <div class="row"><a href="#membership.html"> Membership</a></div>
-                                      <div class="row"><a href="#facilities.html"> Facilities</a></div>
-                                      <div class="row"><a href="#events.html"> Events</a></div>
-                                      <div class="row"><a href="#calendar.html"> Calendar</a></div>
-                                      <div class="row"><a href="#contact.html"> Contact Us</a></div>
-                                  </div>
-
-                                    <div class="col-xs-6 pagination-column"> <!-- Links to other Websites -->
-                                      <h4>Social Media</h4>
-                                        <div class="row"><a href="https://www.facebook.com/ritinternationalhouse/timeline"> Facebook</a></div>
-                                        <div class="row"><a href="https://twitter.com/iHouse_RIT"> Twitter</a></div>
-                                        <div class="row"><a href="#contact.html"> Email</a></div>
-                                        <div class="row"><a href="https://instagram.com/international.house/"> Instagram</a></div>
-                                        <div class="row"><a href="https://pinterest.com/ihouse_rit/"> Pinterest</a></div>
-                                        <div class="row"><a href="http://rit-international-house.tumblr.com/"> Tumblr</a></div>
-                                     </div>
-                                    </div>
-                                </div>
-
-                                <!-- B -->
-                                <div class="col-xs-12 col-sm-6">
-                                  <div class="row">
-                                    <div class="col-xs-6 pagination-column"> <!-- Links to RIT websites -->
-                                        <h4>RIT Links</h4>
-                                        <div class="row"><a href="http://www.rit.edu/"> RIT Homepage</a></div>
-                                        <div class="row"><a href="http://www.rit.edu/academics.html"> RIT Academics</a></div>
-                                        <div class="row"><a href="http://www.rit.edu/admission.html"> RIT Admissions</a></div>
-                                        <div class="row"><a href="https://ritpedia.rit.edu/International_House"> RITPedia</a></div>
-                                        <div class="row"><a href="https://www.reddit.com/r/rit/"> RIT on Reddit</a></div>
-                                    </div>
-
-                                    <div class="col-xs-6 pagination-column"> <!-- Affiliations -->
-                                        <h4>Affiliations</h4>
-                                        <div class="row"><a href="http://www.rit.edu/clubs/globalunion/"> Global Union</a></div>
-                                        <div class="row"><a href="#"> Taiwanese Culture Association</a></div>
-                                        <div class="row"><a href="#"> Asian Culture Society</a></div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-
-
-                            <div class="text-center center-block credentials">
-                              <h6 class="hidden-xs">This website design is Copyright <i class="fa fa-fw fa-copyright"></i> [2016] [Ian Effendi and Jason Carr].<br/>You can find out more about the MIT License <a href="https://tldrlegal.com/license/mit-license#fulltext" target="_blank">here</a>.</h6>
-                              <h6 class="hidden-sm hidden-md hidden-lg visible-xs"><i class="fa fa-fw fa-copyright"></i> 2016 - Ian Effendi and Jason Carr.<br/>Find out about the MIT License <a href="https://tldrlegal.com/license/mit-license#fulltext" target="_blank">here</a>.</h6>
-                              <p>This website uses the <a href="http://getbootstrap.com/" target="_blank"><img class="fa fa-fw icon" src="img/bootstrap.ico"/></a><a href="http://getbootstrap.com/" target="_blank"> Bootstrap</a> framework.</p>
-                            </div>
-
-                   </div>
-
+        <!-- Pre-Footer (Social Media Footer) -->
+        <div class="social-footer-area">
+          <div class="row">
+            <div class="col-xs-12 text-center social-footer">
+              <h5>
+              Connect with us!
+              <h5>
+              <a href="https://www.facebook.com/ritinternationalhouse/timeline" target="_blank" class="social-btn">
+              <i class="fa fa-facebook">
+              </i>
+              </a>
+              <a href="https://twitter.com/iHouse_RIT" target="_blank" class="social-btn">
+              <i class="fa fa-twitter">
+              </i>
+              </a>
+              <a href="#contact" target="_blank" class="social-btn">
+              <i class="fa fa-envelope">
+              </i>
+              </a>
+              <a href="https://instagram.com/international.house/" target="_blank" class="social-btn">
+              <i class="fa fa-instagram">
+              </i>
+              </a>
+              <a href="https://pinterest.com/ihouse_rit/" target="_blank" class="social-btn">
+              <i class="fa fa-pinterest">
+              </i>
+              </a>
+            </div>
           </div>
+        </div>
+        <!-- Site Navigation Pagination -->
+        <div class="site-nav-pager container-fluid center-block">
+          <!-- Divider (White) -->
+          <div class="divider-white center-block">
+          </div>
+          <div class="container-fluid">
+            <!-- Site Navigation Pager (This is for site-crawling robots for Google/Bing/etc. search directories. It's important to have!) -->
+            <div class="pagination center-block container nav-footer">
+              <!-- We want Pages, Affiliations, Social Media Links, and Links to important RIT websites. That's 4 columns on a large screen. Two columns on a small screen. Remember columns go inside row divs. -->
+              <div class="row center-block">
+                <!-- A -->
+                <div class="col-xs-12 col-sm-6">
+                  <div class="row">
+                    <div class="col-xs-6 pagination-column">
+                      <!-- Site Pages -->
+                      <h4>
+                        Pages 
+                      </h4>
+                      <div class="row">
+                        <a href="#home.html">
+                        Home </a>
+                      </div>
+                      <div class="row">
+                        <a href="#about.html">
+                        About </a>
+                      </div>
+                      <div class="row">
+                        <a href="#membership.html">
+                        Membership </a>
+                      </div>
+                      <div class="row">
+                        <a href="#facilities.html">
+                        Facilities </a>
+                      </div>
+                      <div class="row">
+                        <a href="#events.html">
+                        Events </a>
+                      </div>
+                      <div class="row">
+                        <a href="#calendar.html">
+                        Calendar </a>
+                      </div>
+                      <div class="row">
+                        <a href="#contact.html">
+                        Contact Us </a>
+                      </div>
+                    </div>
+                    <div class="col-xs-6 pagination-column">
+                      <!-- Links to other Websites -->
+                      <h4>
+                        Social Media 
+                      </h4>
+                      <div class="row">
+                        <a href="https://www.facebook.com/ritinternationalhouse/timeline">
+                        Facebook </a>
+                      </div>
+                      <div class="row">
+                        <a href="https://twitter.com/iHouse_RIT">
+                        Twitter </a>
+                      </div>
+                      <div class="row">
+                        <a href="#contact.html">
+                        Email </a>
+                      </div>
+                      <div class="row">
+                        <a href="https://instagram.com/international.house/">
+                        Instagram </a>
+                      </div>
+                      <div class="row">
+                        <a href="https://pinterest.com/ihouse_rit/">
+                        Pinterest </a>
+                      </div>
+                      <div class="row">
+                        <a href="http://rit-international-house.tumblr.com/">
+                        Tumblr </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- B -->
+                <div class="col-xs-12 col-sm-6">
+                  <div class="row">
+                    <div class="col-xs-6 pagination-column">
+                      <!-- Links to RIT websites -->
+                      <h4>
+                        RIT Links 
+                      </h4>
+                      <div class="row">
+                        <a href="http://www.rit.edu/">
+                        RIT Homepage </a>
+                      </div>
+                      <div class="row">
+                        <a href="http://www.rit.edu/academics.html">
+                        RIT Academics </a>
+                      </div>
+                      <div class="row">
+                        <a href="http://www.rit.edu/admission.html">
+                        RIT Admissions </a>
+                      </div>
+                      <div class="row">
+                        <a href="https://ritpedia.rit.edu/International_House">
+                        RITPedia </a>
+                      </div>
+                      <div class="row">
+                        <a href="https://www.reddit.com/r/rit/">
+                        RIT on Reddit </a>
+                      </div>
+                    </div>
+                    <div class="col-xs-6 pagination-column">
+                      <!-- Affiliations -->
+                      <h4>
+                        Affiliations 
+                      </h4>
+                      <div class="row">
+                        <a href="http://www.rit.edu/clubs/globalunion/">
+                        Global Union </a>
+                      </div>
+                      <div class="row">
+                        <a href="https://thelink.rit.edu/organization/TaiwaneseCultureAssociation">
+                        Taiwanese Culture Association </a>
+                      </div>
+                      <div class="row">
+                        <a href="https://thelink.rit.edu/organization/AsianCulture">
+                        Asian Culture Society </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text-center center-block credentials">
+              <h6 class="hidden-xs">
+                This website design is Copyright <i class="fa fa-fw fa-copyright">
+                </i>
+                [2016] [Ian Effendi and Jason Carr]. <br/>
+                You can find out more about the MIT License <a href="https://tldrlegal.com/license/mit-license#fulltext" target="_blank">
+                here </a>
+                . 
+              </h6>
+              <h6 class="hidden-sm hidden-md hidden-lg visible-xs">
+                <i class="fa fa-fw fa-copyright">
+                </i>
+                2016 - Ian Effendi and Jason Carr. <br/>
+                Find out about the MIT License <a href="https://tldrlegal.com/license/mit-license#fulltext" target="_blank">
+                here </a>
+                . 
+              </h6>
+              <p>
+                This website uses the <a href="http://getbootstrap.com/" target="_blank">
+                <img class="fa fa-fw icon" src="img/bootstrap.ico"/>
+                </a>
+                <a href="http://getbootstrap.com/" target="_blank">
+                Bootstrap </a>
+                framework.
+              </p>
+            </div>
+          </div>
+        </div>
       </footer>
-
-
-    </div> <!-- Website End -->
-
+    </div>
+    <!-- Website End -->
     <!-- RSS FEED FOR TOP RIT STORIES. USE THIS ON THE EVENTS PAGE -->
-  <!--  <div class="col-md-4"> -->
-      <!-- start feedwind code -->
-    <!--  <script type="text/javascript">document.write('\x3Cscript type="text/javascript" src="' + ('https:' == document.location.protocol ? 'https://' : 'http://') + 'feed.mikle.com/js/rssmikle.js">\x3C/script>');</script><script type="text/javascript">(function() {var params = {rssmikle_url: "https://www.rit.edu/news/lib/rss/topstories.rss",rssmikle_frame_width: "340",rssmikle_frame_height: "400",frame_height_by_article: "3",rssmikle_target: "_blank",rssmikle_font: "Verdana, Arial, sans-serif",rssmikle_font_size: "12",rssmikle_border: "on",responsive: "on",rssmikle_css_url: "",text_align: "left",text_align2: "left",corner: "on",scrollbar: "on",autoscroll: "on",scrolldirection: "up",scrollstep: "3",mcspeed: "20",sort: "Off",rssmikle_title: "on",rssmikle_title_sentence: "RIT News Releases - Top Stories",rssmikle_title_link: "https://www.rit.edu/news/",rssmikle_title_bgcolor: "#F36E21",rssmikle_title_color: "#FFFFFF",rssmikle_title_bgimage: "",rssmikle_item_bgcolor: "#FFFFFF",rssmikle_item_bgimage: "",rssmikle_item_title_length: "55",rssmikle_item_title_color: "#F36E21",rssmikle_item_border_bottom: "on",rssmikle_item_description: "on",item_link: "off",rssmikle_item_description_length: "150",rssmikle_item_description_color: "#030303",rssmikle_item_date: "gl1",rssmikle_timezone: "Etc/GMT",datetime_format: "%b %e, %Y %l:%M %p",item_description_style: "text+tn",item_thumbnail: "full",item_thumbnail_selection: "auto",article_num: "15",rssmikle_item_podcast: "off",keyword_inc: "",keyword_exc: ""};feedwind_show_widget_iframe(params);})();</script><div style="font-size:10px; text-align:center; "><a href="http://feed.mikle.com/" target="_blank" style="color:#CCCCCC;">RSS Feed Widget</a><!--Please display the above link in your web page according to Terms of Service.--></div><!-- end feedwind code --><!--  end  feedwind code -->
-    <!-- </div> -->
-
+    <!--  
+      <div class="col-md-4">
+      -->
+    <!-- start feedwind code -->
+    <!--  
+      <script type="text/javascript">
+      document.write('\x3Cscript type="text/javascript" src="' + ('https:' == document.location.protocol ? 'https://' : 'http://') + 'feed.mikle.com/js/rssmikle.js">\x3C/script>');
+      </script>
+      <script type="text/javascript">
+      (function() {
+      var params = {
+      rssmikle_url: "https://www.rit.edu/news/lib/rss/topstories.rss",rssmikle_frame_width: "340",rssmikle_frame_height: "400",frame_height_by_article: "3",rssmikle_target: "_blank",rssmikle_font: "Verdana, Arial, sans-serif",rssmikle_font_size: "12",rssmikle_border: "on",responsive: "on",rssmikle_css_url: "",text_align: "left",text_align2: "left",corner: "on",scrollbar: "on",autoscroll: "on",scrolldirection: "up",scrollstep: "3",mcspeed: "20",sort: "Off",rssmikle_title: "on",rssmikle_title_sentence: "RIT News Releases - Top Stories",rssmikle_title_link: "https://www.rit.edu/news/",rssmikle_title_bgcolor: "#F36E21",rssmikle_title_color: "#FFFFFF",rssmikle_title_bgimage: "",rssmikle_item_bgcolor: "#FFFFFF",rssmikle_item_bgimage: "",rssmikle_item_title_length: "55",rssmikle_item_title_color: "#F36E21",rssmikle_item_border_bottom: "on",rssmikle_item_description: "on",item_link: "off",rssmikle_item_description_length: "150",rssmikle_item_description_color: "#030303",rssmikle_item_date: "gl1",rssmikle_timezone: "Etc/GMT",datetime_format: "%b %e, %Y %l:%M %p",item_description_style: "text+tn",item_thumbnail: "full",item_thumbnail_selection: "auto",article_num: "15",rssmikle_item_podcast: "off",keyword_inc: "",keyword_exc: ""};feedwind_show_widget_iframe(params);})();
+      </script>
+      <div style="font-size:10px; text-align:center; ">
+      <a href="http://feed.mikle.com/" target="_blank" style="color:#CCCCCC;">
+      RSS Feed Widget
+      </a>
+      <!--Please display the above link in your web page according to Terms of Service.-->
+    </div>
+    <!-- end feedwind code -->
+    <!--  end  feedwind code -->
+    <!-- 
+      </div>
+      -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
-
-</body>
+  </body>
 </html>
