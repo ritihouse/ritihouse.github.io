@@ -50,16 +50,38 @@ body {
 	font-family: "Merriweather", "Open Sans", serif;
 	font-size: 11px;
 	line-height: 150%;
-
 }
 .credentials {
-		margin-top: 3%;
+	margin-top: 3%;
 }
-
+.flex-center {	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 35%;
+	resize: none;
+	overflow: auto;
+}
+.flex-center div {
+  margin: 0;
+  padding: 5px;
+}
 #bars span {
 	font-size: 28px;
 }
-
+.btn-ihouse {
+	color: white;
+	background-color: #4b92db;
+	border-color: #3476b4;
+	font-family: "Merriweather", sans-serif;
+}
+.btn-ihouse:hover,
+.btn-ihouse:focus,
+.btn-ihouse:active {
+	background-color: #3476b4;
+}
 @media (max-width: 767px) {
 	.space {
 		 margin: 50px 0px;
@@ -383,8 +405,14 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 		margin-top: -5.5px;
 }
 
-#brand:hover, #bars:hover, #bars:focus {
-		background-color: #3476b4;
+#brand:hover {
+	outline: 2px dashed #3476b4;
+}
+
+#bars:hover .fa,
+#bars:active .fa{
+		color: #3476b4;
+		/* background-color: #3476b4; */
 }
 
 .navbar-desktop-header {
