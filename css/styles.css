@@ -106,6 +106,9 @@ body {
 .btn-ihouse:active {
 	background-color: #3476b4;
 }
+.panel-title h3 {
+	font-size: 48px;
+}
 @media (max-width: 767px) {
 	.space {
 		margin-top: 0;
@@ -156,6 +159,9 @@ body {
 
 	.pagination-column {
 		 margin-top: 15px;
+	}
+	.panel-title h3 {
+		font-size: 28px;
 	}
 }
 
@@ -555,7 +561,7 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 	
 	.jumbotron p {
 		font-size: 18px;
-	}
+	}		
 }
 
 @media (max-width: 470px) {
@@ -596,27 +602,27 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 		 font-size:16px;
 	 }
 
-	 	p, div {
-	 		font-family: "Open Sans", sans-serif;
-	 		font-size: 14px;
-	 		line-height: 160%;
-	 	}
+	p, div {
+		font-family: "Open Sans", sans-serif;
+		font-size: 14px;
+		line-height: 160%;
+	}
 
-	 	h1, .h1 {
-	 		font-family: "Cabin", sans-serif;
-	 		font-size: 16px;
-	 	}
-
-	 	h4, .h4 {
-	 		font-size: 18px;
-	 	}
-		
 	 .btn-lg {
 		font-size: 12px;
 	 }
 		
 	.jumbotron p {
 		font-size: 16px;
+	}
+	
+	h1, .h1 {
+		font-family: "Cabin", sans-serif;
+		font-size: 16px;
+	}
+
+	h4, .h4 {
+		font-size: 18px;
 	}
 }
 
