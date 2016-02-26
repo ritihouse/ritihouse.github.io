@@ -175,14 +175,11 @@
 	  
       <!-- Whitespace + Divider -->
       <div class="container">
-          <div class="space row"></div>		  
+          <div class="space-lg row"></div>		  
       </div>
 	  
       <!-- CONTENT -->
       <section class="text-center section-padding">
-
-            <!-- Divider -->
-            <div class="divider center-block"></div>
 
             <!-- Space -->
             <div class="space"></div>
@@ -194,22 +191,77 @@
                 <div class="jumbotron">
                     <div class="panel-title">
                         <h3>
-                            Error 404 <small>- this page is missing...</small>
+                            Error 404<br/><small>(this page is missing)</small>
                         </h3>
                     </div>
-                    <div class="panel">
-                        <div class="row text-center">
-                            <div class="col-sm-6 hidden-sm hidden-xs flex-center">
-                                <p>
-                                Eventually, we'll want to put a form here. -- ><br/>
-                                Until then...
-                                </p>
+                    
+                    <div class="divider space-md center-block"></div>
+                    
+                    <div class="container">
+                        <div class="row text-center center-block">
+                            <div class="span12">
+                                <p>Our monkeys on typewriters will be fired...</p>
+                                <a class="btn btn-ihouse btn-lg hidden-sm hidden-md hidden-lg" href="#" data-toggle="modal" data-target="#bug-form">In the mean time...</a>
                             </div>
-                            <div class="col-sm-12 col-md-6 flex-center">
-                                <p>
-                                Our monkeys on typewriters will be fired...<br/>
-                                <a href="#" data-toggle="modal" data-target="#bug-form" class="btn btn-ihouse btn-lg">In the mean time...</a>
-                                </p>
+                            <div class="span12 hidden-xs">
+                                <div class="panel">                                            
+                                        <div class="panel-content">
+                                            
+                                            <div class="panel-title text-center">
+                                                <h4>Let us know!</h4>
+                                            </div>
+                                            
+                                            <div class="panel-body">                                        
+                                                <form id="form_1" action="http://formspree.io/rit.i.house+error@gmail.com" method="POST" name="form">
+                    
+                                                    <div id="firstname-group" class="form-group">
+                                                        <label for="first_name">First Name <span class="required-flag">*</span></label>
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon"><i class="fa fa-fw fa-user"></i></span>
+                                                            <input id="first_name" type="text" class="form-control" placeholder="Jane" name="first_name" />
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div id="lastname-group" class="form-group">
+                                                        <label for="last_name">Last Name <span class="required-flag">*</span></label>
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon"><i class="fa fa-fw fa-user"></i></span>
+                                                            <input id="last_name" type="text" class="form-control" placeholder="Smith" name="last_name" />
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div id="email-group" class="form-group">
+                                                        <label for="email">Email <span class="required-flag">*</span></label>
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon"><i class="fa fa-fw fa-envelope"></i></span>
+                                                            <input id="email" type="text" class="form-control" placeholder="smith.jane@example.com" name="_replyTo" onchange="validateEmailAdd();" />
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div id="phone-group" class="form-group">
+                                                        <label for="mobile_phone">Tel. Phone</label>
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon"><i class="fa fa-fw fa-phone"></i></span>
+                                                            <input id="mobile_phone" type="text" class="form-control" placeholder="Mobile" name="mobile_phone" />
+                                                        </div>
+                                                    </div>
+                    
+                                                    <div id="message-group" class="form-group control-group">
+                                                        <label for="message">Message <span class="required-flag">*</span></label>
+                                                        <div class="controls container-fluid">
+                                                            <textarea id="message" type="text" name="message" placeholder=" Hey, there's a problem with your page! It goes a little something like this: " maxlength="1500" rows="8" style="width:100%;"></textarea>
+                                                            <div id="textarea_feedback"></div>
+                                                        </div>
+                                                    </div>
+                    
+                                                    <input type="text" name="_gotcha" style="display:none" />
+                    
+                                                    <button type="submit" class="btn btn-primary">Submit <i class="fa fa-arrow-right"></i></button>
+                                                </form>
+                                            </div>
+                                            
+                                        </div>                                    
+                                </div>
                             </div>
                         </div>
                     </div>

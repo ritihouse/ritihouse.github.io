@@ -43,7 +43,24 @@ body {
 	border-top: 1px solid #fff;
 }
 .space {
-	margin: 55px 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.space-xs {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.space-sm {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.space-md {
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+.space-lg {
+	margin-top: 55px;
+	margin-bottom: 55px;
 }
 .credentials > p,
 .credentials > h6{
@@ -84,7 +101,24 @@ body {
 }
 @media (max-width: 767px) {
 	.space {
-		 margin: 50px 0px;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.space-xs {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	.space-sm {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.space-md {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.space-lg {
+		margin-top: 50px;
+		margin-bottom: 50px;
 	}
 
 	p, div {
@@ -511,6 +545,10 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 		margin-right: 0px;
 		padding: 5px 15px;
 	}
+	
+	.jumbotron p {
+		font-size: 18px;
+	}
 }
 
 @media (max-width: 470px) {
@@ -565,6 +603,14 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 	 	h4, .h4 {
 	 		font-size: 18px;
 	 	}
+		
+	 .btn-lg {
+		font-size: 12px;
+	 }
+		
+	.jumbotron p {
+		font-size: 16px;
+	}
 }
 
 @media (max-width: 302px){
