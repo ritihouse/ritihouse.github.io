@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,latin-ext);
+/*
+	MIT LICENSE
+	Copyright [2016] [Ian Effendi and Jason Carr]
+
+	This document is a customized stylesheet for the International House webpage.
+*/
+
+/* ==========================================================================
+Global
+========================================================================== */
+
+/* ==========================================================================
+Hero
+========================================================================== */
+
+.hero {
+			background: url('../img/cover_HQ.png') no-repeat center center;
+
+			background-size: cover;
+				-webkit-background-size: cover;
+            	-moz-background-size: cover;
+	 			-o-background-size: cover;
+
+            min-height: 620px;
+                
+		 	height: auto;
+            width: 100%;
+}
+
+.hero-overlay { color:#212121; }
+
+/* ==========================================================================
+Cover
+========================================================================== */
+.cover {    
+    height: auto;
+    width: auto;
+    
+    padding: 50px 0px 130px 0px;
+    
+    background-color: #4b92db;
+}
+.color-caption {
+    color: #ffffff;
+}
+.cover-icon {
+    color: #ffffff;
+    
+    height: 48px;
+    width: 48px;
+    
+    padding: 0;
+    
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+}
+.cover-icon i {
+    margin-top: 4px;
+        
+       text-shadow: 0 0 5px rgba(0,0,0,0.5);
+   
+    font-size: 36px;
+}
+.cover-icon i:hover, .cover-icon:hover {    
+    color: #c7c3db;
+        
+       text-shadow: none;
+    
+    border-color: #c7c3db;
+    
+}
+
+@media (max-width: 1550px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 850px) {    
+}
+
+@media (max-width: 512px) {
+    .hero {
+			background: url('../img/cover_small_HQ.png') no-repeat center center;
+
+			background-size: cover;
+				-webkit-background-size: cover;
+            	-moz-background-size: cover;
+	 			-o-background-size: cover;
+
+            min-height: 420px;
+                
+		 	height: auto;
+            width: 100%;
+    }
+    
+    .cover {    
+        height: auto;
+        width: auto;
+        
+        padding: 10px 0px;
+        
+        background-color: #4b92db;
+    }
+}
+
+@media (max-width: 470px) {
+}
+
+@media (max-width: 387px) {
+}
+
+@media (max-width: 352px) {
+}
+
+@media (max-width: 302px){
+}
