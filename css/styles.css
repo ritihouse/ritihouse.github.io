@@ -23,8 +23,26 @@ p, div {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: "Merriweather", serif;
+}
+h1 .h1 {
 	font-size: 28px;
 }
+h2 .h2 {
+	font-size: 26px;
+}
+h3 .h3 {
+	font-size: 24px;
+}
+h4 .h4 {
+	font-size: 22px;
+}
+h5 .h5 {
+	font-size: 21px;
+}
+h6 .h6 {
+	font-size: 20px;
+}
+
 body {
 	background-color: #f2efea;
 	width: 100%;
