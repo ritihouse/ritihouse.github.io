@@ -9,13 +9,25 @@
 /* ==========================================================================
 Global
 ========================================================================== */
-
+.affix {
+    position: absolute;
+    
+    min-width: 90%;
+}
+.cover-title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    color: #ffffff;
+    
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
 /* ==========================================================================
 Hero
 ========================================================================== */
 
 .hero {
-			background: url('../img/cover_HQ.png') no-repeat center center;
+			background: url('../img/cover_label_HQ.png') no-repeat center center;
 
 			background-size: cover;
 				-webkit-background-size: cover;
@@ -37,7 +49,7 @@ Cover
     height: auto;
     width: auto;
     
-    padding: 50px 0px 130px 0px;
+    padding: 50px 0px 150px 0px;
     
     background-color: #4b92db;
 }
@@ -70,14 +82,22 @@ Cover
     border-color: #c7c3db;
     
 }
-
+.cover-img {
+    margin-bottom: 50px;
+}
 @media (max-width: 1550px) {
+    .cover-img {
+        margin-bottom: 0px;
+    }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1200px) {    
 }
 
 @media (max-width: 850px) {    
+}
+
+@media (max-width: 692px) {  
 }
 
 @media (max-width: 512px) {
@@ -95,6 +115,10 @@ Cover
             width: 100%;
     }
     
+    .cover-icon {
+        display: none;
+    }
+    
     .cover {    
         height: auto;
         width: auto;
@@ -105,7 +129,10 @@ Cover
     }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 422px) {
+    .logo-text {
+        margin-top: -48px;
+    }
 }
 
 @media (max-width: 387px) {
