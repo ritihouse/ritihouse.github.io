@@ -9,10 +9,18 @@
 /* ==========================================================================
 Global
 ========================================================================== */
-.affix {
-    position: absolute;
+.cover {
+    margin-left: auto;
+    margin-right: auto;
+}
+.cover-outer {
+    padding-top: 50px;
+    padding-bottom: 100px;
     
-    min-width: 90%;
+    padding-left: 0;
+    padding-right: 0;
+    
+    background: #4b92db;
 }
 .cover-title {
     font-family: "Open Sans", sans-serif;
@@ -21,6 +29,22 @@ Global
     
     margin-top: 0px;
     margin-bottom: 40px;
+}
+.ihouse-gradient {
+    width: 100%;
+    
+    padding-left: 0;
+    padding-right: 0;
+        
+    min-height: 100px;
+    background: #4b92db; /* For browsers that do not support gradients */
+    
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4b92db+0,f2efea+43,f2efea+43,f2efea+85&1+0,0.5+26 */
+    background: -moz-linear-gradient(top,  rgba(75,146,219,1) 0%, rgba(176,202,228,0.5) 26%, rgba(242,239,234,0.5) 43%, rgba(242,239,234,0.5) 85%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(75,146,219,1) 0%,rgba(176,202,228,0.5) 26%,rgba(242,239,234,0.5) 43%,rgba(242,239,234,0.5) 85%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(75,146,219,1) 0%,rgba(176,202,228,0.5) 26%,rgba(242,239,234,0.5) 43%,rgba(242,239,234,0.5) 85%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b92db', endColorstr='#80f2efea',GradientType=0 ); /* IE6-9 */
+
 }
 /* ==========================================================================
 Hero
@@ -35,7 +59,7 @@ Hero
 	 			-o-background-size: cover;
 
             min-height: 620px;
-                
+                        
 		 	height: auto;
             width: 100%;
 }
@@ -48,8 +72,8 @@ Cover
 .cover {    
     height: auto;
     width: auto;
-    
-    padding: 50px 0px 150px 0px;
+        
+    padding: 10px 0px 50px 0px;
     
     background-color: #4b92db;
 }
@@ -79,16 +103,13 @@ Cover
         
        text-shadow: none;
     
-    border-color: #c7c3db;
-    
+    border-color: #c7c3db;    
 }
 .cover-img {
-    margin-bottom: 50px;
+    padding-top: 350px;
+    margin-bottom: 25px;
 }
 @media (max-width: 1550px) {
-    .cover-img {
-        margin-bottom: 0px;
-    }
 }
 
 @media (max-width: 1200px) {    
@@ -97,10 +118,19 @@ Cover
 @media (max-width: 850px) {    
 }
 
-@media (max-width: 692px) {  
+@media (max-width: 692px) { 
+    .cover-outer {
+        padding-top: 50px;
+        padding-bottom: 100px;
+        
+        padding-left: 0;
+        padding-right: 0;
+        
+        background: #4b92db;
+    }   
 }
 
-@media (max-width: 512px) {
+@media (max-width: 600px) {
     .hero {
 			background: url('../img/cover_small_HQ.png') no-repeat center center;
 
@@ -115,6 +145,15 @@ Cover
             width: 100%;
     }
     
+    .ihouse-gradient {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        min-height: 80px;
+        background: #f2efea; /* For browsers that do not support gradients */
+    }
+    
+    .cover-space,
     .cover-icon {
         display: none;
     }
@@ -127,11 +166,16 @@ Cover
         
         background-color: #4b92db;
     }
+    
+    .cover-img {
+        padding-top: 50px;
+    }
+
 }
 
 @media (max-width: 422px) {
     .logo-text {
-        margin-top: -48px;
+        margin-top: -47px;
     }
 }
 
