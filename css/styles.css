@@ -194,9 +194,9 @@ Hero
 			background: url('../img/ihouse.jpg') no-repeat center center;
 
 			background-size: cover;
-				-webkit-background-size: cover;
+			-webkit-background-size: cover;
   			-moz-background-size: cover;
-	 			-o-background-size: cover;
+	 		-o-background-size: cover;
 
 	  	padding: 65px 0 300px 0;
 		 	height: auto;
@@ -210,6 +210,10 @@ About
 .bio {
 	font-family: "Cabin", sans-serif;
 	font-size: 14px;	
+}
+.eboard-photo {
+	width:  100%;
+	height: 100%;
 }
 
 /* ==========================================================================

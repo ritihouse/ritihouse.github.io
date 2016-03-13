@@ -1,0 +1,3 @@
+# don't make bio images public in any way
+img/eboard_*
+
