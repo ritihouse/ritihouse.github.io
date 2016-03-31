@@ -158,8 +158,7 @@ body {
 	}
 
 	h1, .h1 {
-		font-family: "Merriweather", sans-serif;
-		font-size: 1.4em;
+		font-size: 1.7em;
 	}
 
 	h4, .h4 {
@@ -594,6 +593,12 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 	.jumbotron p {
 		font-size: 18px;
 	}		
+}
+
+@media (max-width: 510px){	
+	h1, .h1 {
+		font-size: 1em;
+	}
 }
 
 @media (max-width: 470px) {

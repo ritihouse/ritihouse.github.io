@@ -9,6 +9,10 @@
 /* ==========================================================================
 Global
 ========================================================================== */
+.small-text{
+    font-size: 0.7em;
+    color: white;
+}
 .cover {
     margin-left: auto;
     margin-right: auto;
@@ -49,9 +53,15 @@ Global
 .banner {
     background: #4b92db;
     color: #fff;
+    padding: 10% 0px;
+}
+.banner-box{
+    width: 100%;
 }
 .banner-img {
-    width: 100%;
+    height: 250px;
+    display: block;
+    margin: 0px auto;
 }
 /* ==========================================================================
 Hero  --- IMPORTANT: HERO IS BEING REMOVED FROM FUNCTIONALITY!
@@ -123,9 +133,20 @@ Cover
 }
 
 @media (max-width: 850px) {    
+    .banner{
+        padding: 12% 0px 7% 0px;
+    }
+    .banner-img {
+        height: 100px;
+        display: block;
+        margin: 0px auto;
+    }
 }
 
 @media (max-width: 692px) { 
+    .banner{
+        padding: 100px 0px 7% 0px;
+    }
     .cover-outer {
         padding-top: 50px;
         padding-bottom: 100px;
@@ -185,4 +206,5 @@ Cover
 }
 
 @media (max-width: 302px){
+
 }
