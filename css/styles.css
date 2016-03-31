@@ -158,8 +158,8 @@ body {
 	}
 
 	h1, .h1 {
-		font-family: "Cabin", sans-serif;
-		font-size: 20px;
+		font-family: "Merriweather", sans-serif;
+		font-size: 1.4em;
 	}
 
 	h4, .h4 {
@@ -649,7 +649,7 @@ fieldset[disabled] .navbar-ihouse .btn-link:focus {
 	}
 	
 	h1, .h1 {
-		font-family: "Cabin", sans-serif;
+		font-family: "Merriweather", sans-serif;
 		font-size: 16px;
 	}
 

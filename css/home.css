@@ -46,8 +46,15 @@ Global
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b92db', endColorstr='#80f2efea',GradientType=0 ); /* IE6-9 */
 
 }
+.banner {
+    background: #4b92db;
+    color: #fff;
+}
+.banner-img {
+    width: 100%;
+}
 /* ==========================================================================
-Hero
+Hero  --- IMPORTANT: HERO IS BEING REMOVED FROM FUNCTIONALITY!
 ========================================================================== */
 
 .hero {
@@ -143,14 +150,6 @@ Cover
                 
 		 	height: auto;
             width: 100%;
-    }
-    
-    .ihouse-gradient {
-        width: 100%;
-        padding-left: 0;
-        padding-right: 0;
-        min-height: 80px;
-        background: #f2efea; /* For browsers that do not support gradients */
     }
     
     .cover-space,

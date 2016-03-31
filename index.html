@@ -31,26 +31,173 @@
 <!-- Website -->
     <div class="website">
 		
-      <!-- Opening Cover -->
-	  <div class="container-fluid cover-outer">
-			<div class="space-lg row cover-space"></div>		
-			<div class="container cover">	
-				<div class="cover-img hero">				
-				</div>									
-				<div class="cover-caption center-block text-center">					
-					<div class="cover-icon center-block">
-						<i class="fa fa-2x fa-chevron-down"></i>
-					</div>
-				</div>					
-			</div>		
-			
-	  </div>
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-ihouse navbar-fixed-top">
+          <div class="container-fluid">
+              <div class="container" id="page-top"> <!-- Page Top -->
+
+                      <!-- Mobile first
+
+                        We design with mobile first in mind,
+                        to keep our websites responsive and accessible,
+                        from the get-go.
+
+                      -->
+
+                      <div class="visible-xs hidden-sm hidden-md hidden-lg">
+                          <div class="navbar-mobile-header">
+
+                                <!-- Toggle Navigation Button -->
+                                  <button id="bars" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-mobile-collapse">
+                                      <span class="sr-only">Toggle Navigation</span>
+                                      <span class="fa fa-2x fa-inverse fa-bars"></span> <!-- Bars button -->
+                                  </button>
+
+                                  <!-- Brand / Logo / Home page Button -->
+                                  <a id="brand" class="navbar-brand" href="index.html">
+                                      <img id="brand-img" class="center-block img-square" src="img/brand.ico" />
+                                  </a>
+
+                          </div>
+
+                          <!-- Banner Logo Name -->
+                          <h3 class="logo-text text-center">International House</h3>
+
+                          <!-- Mobile Tabs --><div class="navbar-collapse collapse" id="navbar-mobile-collapse">
+                              <ul class="nav navbar-nav navbar-ihouse">
+                                <!-- ABOUT -->
+                                 <li class="navbar-link">
+                                    <a class="text-center" href="about.html">
+                                      <i class="fa fa-fw fa-info-circle"></i> About
+                                      <span class="sr-only">(current)</span> <!-- For Screen Readers (accessibility for blind persons) -->
+                                    </a>
+                                </li>
+
+                                <!-- MEMBERSHIP -->
+                                <li class="navbar-link">
+                                     <a class="text-center" href="membership.html">
+                                       <i class="fa fa-fw fa-group"></i> Membership
+                                     </a>
+                                </li>
+
+                                <!-- FACILITIES -->
+                                <li class="navbar-link">
+                                     <a class="text-center" href="facilities.html">
+                                       <i class="fa fa-fw fa-building-o"></i> Facilities
+                                     </a>
+                                </li>
+
+                                <!-- EVENTS -->
+                                <li class="navbar-link">
+                                     <a class="text-center" href="events.html">
+                                       <i class="fa fa-fw fa-globe"></i> Events
+                                     </a>
+                                </li>
+
+                                <!-- CALENDAR -->
+                                <li class="navbar-link">
+                                     <a class="text-center" href="calendar.html">
+                                       <i class="fa fa-fw fa-calendar-check-o"></i> Calendar
+                                     </a>
+                                </li>
+
+                                <!-- CONTACT -->
+                                <li class="navbar-link">
+                                     <a class="text-center" href="contact.html">
+                                       <i class="fa fa-fw fa-sign-in"></i> Contact Us
+                                     </a>
+                                </li>
+
+                              </ul>
+                          </div>
+                      </div>
+
+                      <!-- Desktop Header -->
+                      <div class="hidden-xs visible-sm visible-md visible-lg">
+                          <div class="navbar-desktop-header">
+                              <a id="brand" class="navbar-brand" href="index.html">
+                                  <img id="brand-img" class="center-block img-square" src="img/brand.ico" />
+                              </a>
+
+                              <h3 class="logo-text text-center hidden-xs">International House</h3>
+
+                              <!-- Button Links on Desktop Version of Site -->
+                              <div class="navbar-desktop-links">
+                                <ul class="nav navbar-nav navbar-ihouse">
+                                  <!-- ABOUT -->
+                                   <li class="navbar-link">
+                                      <a class="text-center navbar-link-padding" href="about.html">
+                                        <i class="fa fa-fw fa-info-circle"></i><span class="hidden-custom"> About</span>
+                                        <span class="sr-only">(current)</span> <!-- For Screen Readers (accessibility for blind persons) -->
+                                      </a>
+                                  </li>
+
+                                  <!-- MEMBERSHIP -->
+                                  <li class="navbar-link">
+                                       <a class="text-center navbar-link-padding" href="membership.html">
+                                         <i class="fa fa-fw fa-user"></i><span class="hidden-custom"> Membership</span>
+                                       </a>
+                                  </li>
+
+                                  <!-- FACILITIES -->
+                                  <li class="navbar-link">
+                                       <a class="text-center navbar-link-padding" href="facilities.html">
+                                         <i class="fa fa-fw fa-building-o"></i><span class="hidden-custom"> Facilities</span>
+                                       </a>
+                                  </li>
+
+                                  <!-- EVENTS -->
+                                  <li class="navbar-link">
+                                       <a class="text-center navbar-link-padding" href="events.html">
+                                         <i class="fa fa-fw fa-globe"></i><span class="hidden-custom"> Events</span>
+                                       </a>
+                                  </li>
+
+                                  <!-- CALENDAR -->
+                                  <li class="navbar-link">
+                                       <a class="text-center navbar-link-padding" href="calendar.html">
+                                         <i class="fa fa-fw fa-calendar-check-o"></i><span class="hidden-custom"> Calendar</span></span>
+                                       </a>
+                                  </li>
+
+                                  <!-- CONTACT -->
+                                  <li class="navbar-link">
+                                       <a class="text-center navbar-link-padding" href="contact.html">
+                                         <i class="fa fa-fw fa-sign-in"></i><span class="hidden-custom"> Contact Us</span>
+                                       </a>
+                                  </li>
+
+                                </ul>
+                              </div>
+                          </div>
+                      </div>
+              </div>
+          </div>
+      </nav>
 	  
       <!-- Whitespace + Divider -->
-      <div class="container ihouse-gradient">
-          <div class="space-lg row"></div>		  
+      <div class="banner">
+			<!-- SPACE AT SMALLER LEVELS -->
+			<div class="space-sm visible-xs row"></div>
+			<div class="space-sm visible-xs row"></div>
+			<div class="space-sm visible-sm visible-xs row"></div>
+			<div class="space-xs visible-sm visible-xs row"></div>
+		
+			<!-- BANNER MESSAGE -->
+			<img class="banner-img visible-sm visible-xs" src="img/banner_small.png" alt="logo.png">
+			<img class="banner-img hidden-xs hidden-sm" src="img/banner_large.png" alt="logo.png">
+					
+			<!-- HEADER -->
+			<div class="banner-caption">
+				
+				  <!-- WELCOME MESSAGE -->
+				  <h1 class="text-center section-padding">
+					  Welcome to International House!
+				  </h1>
+				  
+			</div>
       </div>
-	  
+	  	  
       <!-- CONTENT -->
       <section class="text-center section-padding">
 
