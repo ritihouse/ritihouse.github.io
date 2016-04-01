@@ -52,7 +52,7 @@ Global
 }
 .banner {
     background: #4b92db;
-    color: #fff;
+    color: #f8f7ed;
     padding: 10% 0px;
 }
 .banner-box{
@@ -62,6 +62,14 @@ Global
     height: 250px;
     display: block;
     margin: 0px auto;
+}
+.banner-subtitle div{
+    color: #f8f7ed;
+    font-size: 1em;
+}
+.banner-subtitle a{
+    /*color: #f36e21; <-- The official RIT orange */
+    color: #f79d6a;
 }
 /* ==========================================================================
 Hero  --- IMPORTANT: HERO IS BEING REMOVED FROM FUNCTIONALITY!
