@@ -89,6 +89,33 @@ body {
 	margin-top: 55px;
 	margin-bottom: 55px;
 }
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+.col-centered-left {
+    display:inline-block;
+    float:none;
+	text-align: left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+.col-centered-right {	
+    display:inline-block;
+    float:none;
+	text-align: right;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+.col-centered-justify {	
+    display:inline-block;
+    float:none;
+	text-align: justify;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
 .credentials > p,
 .credentials > h6{
 	font-family: "Merriweather", "Open Sans", serif;
