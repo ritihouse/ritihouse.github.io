@@ -1,0 +1,23 @@
+.banner-wide {
+    position: relative;
+    display: block;
+    left: -25%;
+    margin: 0px auto;
+    width: 150%;
+}
+.bio {
+	font-size: 14px;	
+}
+
+@media (max-width: 720px) {
+    .banner-wide {
+        position: relative;
+        display: block;
+        left: 0;
+        margin: 0px auto;
+        width: 100%;
+    }    
+    .bio {
+        font-size: 12px;
+    }
+}
