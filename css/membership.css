@@ -1,0 +1,65 @@
+.btn-ihouse {
+    border-radius: 15px;
+}
+.checkmark-anim:hover .display-on-hover {
+    display: block;
+}
+.checkmark-anim:hover .hide-on-hover {
+    display: none;
+}
+.display-on-hover {
+    display: none;
+}
+.hide-on-hover {
+    display: block;
+}
+.membership-color{
+    background-color: #000000;
+    color: #f8f7ed;
+}
+.eboard-color{
+    background-color: #f2efea;
+    color: #000000;
+}
+.panel-list div {
+    font-size: 14px;
+}
+.panel-inside {    
+    /* background-color: #4b92db; */    
+    width: 100%;
+    margin-bottom: 100px;
+}
+.panel-inside-caption {
+    font-size: 14px;
+}
+@media(max-width: 992px) {
+    .panel-inside {
+        left: -4px;
+        display: block;
+        margin: 0px auto;
+        width: 100%;
+    }
+
+    .panel-inside-caption {
+        font-size: 18px;
+    }
+    .panel-list div {
+        font-size: 18px;
+    }
+}
+@media(max-width: 767px) {
+    .panel-inside-caption {
+        font-size: 14px;
+    }
+    .panel-list div {
+        font-size: 14px;
+    }
+}
+@media(max-width: 450px) {
+    .panel-inside-caption {
+        font-size: 12px;
+    }
+    .panel-list div {
+        font-size: 12px;
+    }
+}
