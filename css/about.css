@@ -113,11 +113,13 @@ h4, .h4 {
         margin: 0px auto;
         padding: 0px 0px;
         width: 100%;
+        margin-left: 2px;
     } 
     .collage {
-        width: 85%;
+        width: 100%;
         height: auto;
         margin: 0 auto;
+        margin-left: 2px;
     }
     .collage-big, .collage-small {
         border: 0;
@@ -141,10 +143,10 @@ h4, .h4 {
 }
 @media (max-width: 480px){
     h1, .h1 {
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
     h3, .h3{
-        font-size: 1.1em;
+        font-size: 1em;
     }
     .col-centered-justify-left {	
         display:inline-block;
