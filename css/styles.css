@@ -50,6 +50,9 @@ body {
 	
 	overflow-x: hidden;
 }
+div.container.panel div {
+	left: -2px;
+}
 .website{
 	width: 100%;
 	margin-right: 0px;
