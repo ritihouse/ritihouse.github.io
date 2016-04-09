@@ -242,59 +242,39 @@
                                         <div class="divider divider-white divider-md center-block hidden-sm hidden-xs"></div>
                                         <div class="space-xs"></div>
                                         <p class="col-centered panel-inside-caption">
-                                        Next to the kitchen, we have a full lounge area. We have a projector and full sound system for the room for meetings, presentations, and events (such as <a href="events.html#culture_nights">Culture Nights</a>) and for our members to watch movies or videos. We also have a record player with a collection of vinyls for playing, and a table for ping-pong. 
+                                        Next to the kitchen, we have a full lounge area. We have a projector and full sound system for the room for meetings, presentations, and events (such as <a href="events.html#culture_nights">Culture Nights</a>) and for our members to watch movies or videos. We also have a record player with a collection of vinyls for playing, and a ping-pong table to play on.
                                         </p>							
                                     </div>
                                     
                                     </div>
 						    </div>
-
+                            
 						    <!-- SPACER -->
 						    <div class="space-md"></div>
 					    </div>
-
                         <div class="col-xs-12 col-md-10 col-centered page-center">
-						<!-- COLLAGE -->
-						<div class="collage">
-							<!--
-							  Split this into two rows.
-							  In the left row have one vertical cropped photo.
-							  On the second row have two stacked photos.
-							-->
-							<div class="row hidden-xs">
-								<div class="col-xs-12 col-sm-8 collage-big">
-									<div id="camera_wrap_1">
-										<div data-src="img/facilities/kitchen/01_small.jpg" data-alignment="center"></div>
-										<div data-src="img/ihouse.jpg" data-alignment="center"></div>
-									</div>
-								</div>
-								<div class="col-xs-12 visible-xs">
-									<div class="space-xs"></div>
-								</div>
-								<div class="col-xs-12 col-sm-4 collage-big">
-									<div id="camera_wrap_2">
-										<div data-src="img/events/events_floordinner.JPG" data-alignment="center"></div>
-										<div data-src="img/events/events_skyzone.jpg" data-alignment="center"></div>
-									</div>
-								</div>
-							</div>
-
-							<div class="row">
+						    <!-- COLLAGE -->
+						    <div class="collage">
+								<div class="row">
 								<div class="col-xs-12 col-sm-6 collage-small">
-									<div id="camera_wrap_3">
+									<div id="camera_wrap_1">
 										<div data-src="img/facilities/kitchen/04_small.jpg" data-alignment="center"></div>
-										<div data-src="img/facilities/kitchen/01_large.jpg" data-alignment="center"></div>
+										<div data-src="img/facilities/kitchen/01_small.jpg" data-alignment="center"></div>
 									</div>
 								</div>
                                 <div class="col-xs-12 col-sm-6 collage-small hidden-xs">
-									<div id="camera_wrap_4">
-										<div data-src="img/facilities/lounge/03_large.jpg" data-alignment="center"></div>
-										<div data-src="img/facilities/lounge/01_small.jpg" data-alignment="center"></div>
+									<div id="camera_wrap_2">
+										<div data-src="img/facilities/kitchen/03_small.jpg" data-alignment="center"></div>
+										<div data-src="img/facilities/kitchen/05_small.jpg" data-alignment="center"></div>
 									</div>
 								</div>
-							</div>
-						</div>
-
+							    </div>
+						    </div>
+                            
+                            <!-- SPACER -->
+                            <div class="space-md"></div>
+                        </div>
+                        
 
 
 
@@ -435,17 +415,9 @@
 	<script src="js/camera.min.js" type="text/javascript"></script>
     <script type="text/javascript">
 		function startCamera() {  
-			$('#camera_wrap_1').camera({ fx: 'random', time: 900, transPeriod: 2000, loader: 'none', playPause: false, navigation: false, height: '450px', pagination: false });  
-			$('#camera_wrap_3').camera({ fx: 'random', time: 1800, transPeriod: 2000, loader: 'none', playPause: false, navigation: false, height: '250px', pagination: false });  
-			$('#camera_wrap_2').camera({ fx: 'random', time: 2700, transPeriod: 2000, loader: 'none', playPause: false, navigation: false, height: '450px', pagination: false });  
-			$('#camera_wrap_4').camera({ fx: 'random', time: 3200, transPeriod: 2000, loader: 'none', playPause: false, navigation: false, height: '250px', pagination: false });  
-			 
-			$('#camera_wrap_5').camera({ fx: 'random', time: 900, transPeriod: 2000, loader: 'none', playPause: false, navigation: false, height: '450px', pagination: false });  
-			$('#camera_wrap_6').camera({ fx: 'random', time: 1800, transPeriod: 2000, loader: 'none', playPause: false, navigation: false, height: '450px', pagination: false });  
-			$('#camera_wrap_7').camera({ fx: 'random', time: 2700, transPeriod: 2000, loader: 'none', playPause: false, navigation: false, height: '250px', pagination: false });  
-			$('#camera_wrap_8').camera({ fx: 'random', time: 3200, transPeriod: 2000, loader: 'none', playPause: false, navigation: false, height: '250px', pagination: false });  
-		
-		}  
+			$('#camera_wrap_1').camera({ fx: 'random', time: 900, transPeriod: 2000, loader: 'none', playPause: false, navigation: false, height: '300', pagination: false });  
+			$('#camera_wrap_2').camera({ fx: 'random', time: 2700, transPeriod: 2000, loader: 'none', playPause: false, navigation: false, height: '300', pagination: false });  
+	    }  
 		$(function(){startCamera()}); 
 	</script>
   </body>
