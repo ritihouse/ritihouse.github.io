@@ -304,6 +304,31 @@
 				                <div class="space-md"></div>
 					        </div>
 					    </div>
+
+
+                        <div class="col-xs-12 col-md-10 col-centered page-center">
+						    <!-- COLLAGE -->
+						    <div class="collage">
+								<div class="row">
+								<div class="col-xs-12 col-sm-6 collage-small">
+									<div id="camera_wrap_3">
+										<div data-src="img/facilities/lounge/04_small.jpg" data-alignment="center"></div>
+										<div data-src="img/facilities/lounge/01_small.jpg" data-alignment="center"></div>
+									</div>
+								</div>
+                                <div class="col-xs-12 col-sm-6 collage-small hidden-xs">
+									<div id="camera_wrap_4">
+										<div data-src="img/facilities/lounge/03_small.jpg" data-alignment="center"></div>
+										<div data-src="img/facilities/lounge/05_small.jpg" data-alignment="center"></div>
+									</div>
+								</div>
+							    </div>
+						    </div>
+                            
+                            <!-- SPACER -->
+                            <div class="space-md"></div>
+                        </div>
+
 					</div>					   
                 </div>
             </div>
@@ -417,7 +442,11 @@
 		function startCamera() {  
 			$('#camera_wrap_1').camera({ fx: 'random', time: 900, transPeriod: 2000, loader: 'none', playPause: false, navigation: false, height: '300', pagination: false });  
 			$('#camera_wrap_2').camera({ fx: 'random', time: 2700, transPeriod: 2000, loader: 'none', playPause: false, navigation: false, height: '300', pagination: false });  
-	    }  
+			
+            $('#camera_wrap_3').camera({ fx: 'random', time: 900, transPeriod: 2000, loader: 'none', playPause: false, navigation: false, height: '300', pagination: false });  
+			$('#camera_wrap_4').camera({ fx: 'random', time: 2700, transPeriod: 2000, loader: 'none', playPause: false, navigation: false, height: '300', pagination: false });  
+    
+        }  
 		$(function(){startCamera()}); 
 	</script>
   </body>
