@@ -263,7 +263,7 @@
 							-->
 							<div class="row hidden-xs">
 								<div class="col-xs-12 col-sm-8 collage-big">
-									<div id="camera_wrap_5">
+									<div id="camera_wrap_1">
 										<div data-src="img/facilities/kitchen/01_small.jpg" data-alignment="center"></div>
 										<div data-src="img/ihouse.jpg" data-alignment="center"></div>
 									</div>
@@ -272,7 +272,7 @@
 									<div class="space-xs"></div>
 								</div>
 								<div class="col-xs-12 col-sm-4 collage-big">
-									<div id="camera_wrap_6">
+									<div id="camera_wrap_2">
 										<div data-src="img/events/events_floordinner.JPG" data-alignment="center"></div>
 										<div data-src="img/events/events_skyzone.jpg" data-alignment="center"></div>
 									</div>
@@ -281,13 +281,13 @@
 
 							<div class="row">
 								<div class="col-xs-12 col-sm-6 collage-small">
-									<div id="camera_wrap_8">
+									<div id="camera_wrap_3">
 										<div data-src="img/facilities/kitchen/04_small.jpg" data-alignment="center"></div>
 										<div data-src="img/facilities/kitchen/01_large.jpg" data-alignment="center"></div>
 									</div>
 								</div>
                                 <div class="col-xs-12 col-sm-6 collage-small hidden-xs">
-									<div id="camera_wrap_7">
+									<div id="camera_wrap_4">
 										<div data-src="img/facilities/lounge/03_large.jpg" data-alignment="center"></div>
 										<div data-src="img/facilities/lounge/01_small.jpg" data-alignment="center"></div>
 									</div>
@@ -432,6 +432,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+	<script src="js/camera.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+		function startCamera() {  
+			$('#camera_wrap_1').camera({ fx: 'random', time: 900, transPeriod: 2000, loader: 'none', playPause: false, navigation: false, height: '450px', pagination: false });  
+			$('#camera_wrap_3').camera({ fx: 'random', time: 1800, transPeriod: 2000, loader: 'none', playPause: false, navigation: false, height: '250px', pagination: false });  
+			$('#camera_wrap_2').camera({ fx: 'random', time: 2700, transPeriod: 2000, loader: 'none', playPause: false, navigation: false, height: '450px', pagination: false });  
+			$('#camera_wrap_4').camera({ fx: 'random', time: 3200, transPeriod: 2000, loader: 'none', playPause: false, navigation: false, height: '250px', pagination: false });  
+			 
+			$('#camera_wrap_5').camera({ fx: 'random', time: 900, transPeriod: 2000, loader: 'none', playPause: false, navigation: false, height: '450px', pagination: false });  
+			$('#camera_wrap_6').camera({ fx: 'random', time: 1800, transPeriod: 2000, loader: 'none', playPause: false, navigation: false, height: '450px', pagination: false });  
+			$('#camera_wrap_7').camera({ fx: 'random', time: 2700, transPeriod: 2000, loader: 'none', playPause: false, navigation: false, height: '250px', pagination: false });  
+			$('#camera_wrap_8').camera({ fx: 'random', time: 3200, transPeriod: 2000, loader: 'none', playPause: false, navigation: false, height: '250px', pagination: false });  
+		
+		}  
+		$(function(){startCamera()}); 
+	</script>
   </body>
 </html>
 
