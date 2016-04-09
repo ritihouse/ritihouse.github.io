@@ -1,0 +1,19 @@
+.collage {
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+}
+.collage-big {
+    border: 1px solid #fff;
+    height: 450px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.collage-small {    
+    border: 1px solid #fff;
+    height: 250px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 4px;
+}
+
